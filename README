@@ -14,4 +14,22 @@ on terminal 3 onse those two are running
 
 This is the steps on the PI
 
-1.
+1.can_setup bash which runs
+
+sudo ip link set can0 up type can bitrate 1000000
+
+sudo ip link set can1 up type can bitrate 1000000
+
+sudo ifconfig can0 txqueuelen 65536
+
+sudo ifconfig can1 txqueuelen 65536
+
+then to confirm
+candump can1
+candump can0
+
+2. python3 oDriveLiveCheck.py
+then enter all the way through 
+
+3. python3 PIside.py 
+then run and get listining
