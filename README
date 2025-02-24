@@ -1,3 +1,17 @@
 This is the steps on the Panda
 
+on one terminal
+1. roslaunch openMuttOct8v2_config bringup.launch rviz:=true
+
+
+on terminal 2
+2. roslaunch champ_teleop teleop.launch
+
+
+on terminal 3 onse those two are running
+3. source openMuttSource.sh 
+4. roslaunch champ_teleop teleop.launch
+
 This is the steps on the PI
+
+1.
