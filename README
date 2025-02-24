@@ -7,10 +7,14 @@ on one terminal
 on terminal 2
 2. roslaunch champ_teleop teleop.launch
 
+*MAKE SURE THAT THE SERVER ADDRESS IN jointTrajListener.py MATCHES WITH THE STATIC IP SET ON PI*
 
-on terminal 3 onse those two are running
+on terminal 3 once those two are running
 3. source openMuttSource.sh 
-4. roslaunch champ_teleop teleop.launch
+4. rosrun openMuttOct8v2_config jointTrajListener.py
+
+
+
 
 This is the steps on the PI
 
