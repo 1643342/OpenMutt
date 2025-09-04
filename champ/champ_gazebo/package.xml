@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>champ_gazebo</name>
+  <version>0.1.0</version>
+  <description>CHAMP Gazebo Package (Updated for Ignition Gazebo)</description>
+
+  <maintainer email="jimenojmm@gmail.com">Juan Miguel Jimeno</maintainer>
+  <author>Juan Miguel Jimeno</author>
+
+  <license>BSD</license>
+
+  <!-- Build Dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>launch_ros</build_depend>
+
+  <!-- ROS 2 and CHAMP Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>champ</depend>
+  <depend>champ_msgs</depend>
+
+  <!-- New Dependencies for Ignition Gazebo -->
+  <exec_depend>ros_gz_sim</exec_depend> 
+  <exec_depend>ros_gz_bridge</exec_depend> 
+  <exec_depend>ignition-gazebo6</exec_depend>
+  <exec_depend>ignition-transport11</exec_depend>
+  <exec_depend>ignition-physics5</exec_depend>
+  <exec_depend>ignition-common4</exec_depend>
+  <exec_depend>ignition-plugin</exec_depend>
+  <exec_depend>ignition-rendering6</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

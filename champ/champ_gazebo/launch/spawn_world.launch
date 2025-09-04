@@ -1,0 +1,15 @@
+<launch>
+    <!-- Arguments -->
+    <arg name="use_sim_time" default="true"/>
+    <arg name="gui" default="true"/>
+    <arg name="headless" default="false"/>
+    <arg name="paused" default="false"/>
+    <arg name="gazebo_world" default="$(find champ_gazebo)/worlds/outdoor.sdf"/>
+
+    <!-- Launch Ignition Gazebo -->
+    <node name="ignition" pkg="ros_gz_sim" type="gz" output="screen"
+          args="sim -r $(arg gazebo_world) --gui $(arg gui) --headless $(arg headless)"/>
+
+    <!-- Set ROS 2 simulation time -->
+    <param name="use_sim_time" value="$(arg use_sim_time)"/>
+</launch>

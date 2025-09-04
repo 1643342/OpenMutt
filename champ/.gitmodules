@@ -1,0 +1,4 @@
+[submodule "champ/include/champ"]
+	path = champ/include/champ
+	url = https://github.com/chvmp/libchamp/tree/ros2
+	branch = ros2
