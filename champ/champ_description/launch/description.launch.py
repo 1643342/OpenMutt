@@ -16,7 +16,7 @@ def generate_launch_description():
     declare_use_sim_time = DeclareLaunchArgument("use_sim_time", default_value="false", description="Use simulation (Gazebo) clock if true")
 
     pkg_share = launch_ros.substitutions.FindPackageShare(package="champ_description").find("champ_description")
-    default_model_path = os.path.join(pkg_share, "urdf/champ.urdf.xacro")
+    default_model_path = os.path.join(pkg_share, "urdf/champ.urdf")
 
     declare_description_path = DeclareLaunchArgument(name="description_path", default_value=default_model_path, description="Absolute path to robot urdf file")
 
