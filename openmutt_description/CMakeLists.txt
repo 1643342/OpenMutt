@@ -8,6 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclpy REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 
 if(BUILD_TESTING)
@@ -25,7 +26,10 @@ endif()
 # Install launch files.
 install(DIRECTORY
   launch
-  DESTINATION share/{$PROJECT_NAME}/
-  USE_SOURCE_PERMISSIONS
+  urdf
+  meshes
+  rviz
+  DESTINATION share/${PROJECT_NAME}/
 )
 
+ament_package()

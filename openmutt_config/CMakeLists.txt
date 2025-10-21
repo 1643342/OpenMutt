@@ -10,8 +10,11 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 
 install(DIRECTORY
-        launch
-        DESTINATION share/${PROJECT_NAME}/
+  launch
+  config/joints
+  config/gait
+  config/links
+  DESTINATION share/${PROJECT_NAME}/
 )
 
 ament_package()

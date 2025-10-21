@@ -1,24 +1,29 @@
-base: base_link
-left_front:
-  - frontLeftHipRotateX
-  - frontLeftHipRotateY
-  - frontLeftKnee
-  - frontLeftFoot
+  state_esctimation_node:
+  ros__parameters:
+    joints_map:
+      base: base_link
+      left_front:
+        - frontLeftHipRotateX
+        - frontLeftHipRotateY
+        - frontLeftKnee
+        - frontLeftFoot
 
-right_front:
-  - frontRightHipRotateX
-  - frontRightHipRotateY
-  - frontRightKnee
-  - frontRightFoot
+      right_front:
+        - frontRightHipRotateX
+        - frontRightHipRotateY
+        - frontRightKnee
+        - frontRightFoot
 
-left_hind:
-  - backLeftHipRotateX
-  - backLeftHipRotateY
-  - backLeftKnee
-  - backLeftFoot
+      left_hind:
+        - backLeftHipRotateX
+        - backLeftHipRotateY
+        - backLeftKnee
+        - backLeftFoot
 
-right_hind:
-  - backRightHipRotateX
-  - backRightHipRotateY
-  - backRightKnee
-  - backRightFoot
+      right_hind:
+        - backRightHipRotateX
+        - backRightHipRotateY
+        - backRightKnee
+        - backRightFoot
+
+  

@@ -38,7 +38,7 @@ def generate_launch_description():
         package="champ_teleop",
         executable="champ_teleop.py",
         # output="screen",
-        prefix="terminator -e 'bash -c'",
+        prefix="xterm -e",
         emulate_tty=True,
         parameters=[
             {'use_sim_time': use_sim_time},
