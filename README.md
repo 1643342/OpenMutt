@@ -3,8 +3,6 @@
 For missing control libraries, go to https://github.com/ros-controls/gz_ros2_control
 
 
-
-
 # Requirements and Background
 
 This repository contains all of the necessary commands and information to configure and operate the OpenMutt system.
@@ -25,7 +23,7 @@ The system is build within Ubuntu 22.04 Linux utilizing ROS2 running on a Raspbe
 To create your own version, the process starts with flashing a microSD with ubuntu 22.04 and installing all the required packages. The following will dictate the whole procedure for such. It is recommended to use a microSD with at least 16GB free space, where a 32GB is more suitable.
 
 
-# 1. Setting up Ubuntu 22.04
+## 1. Setting up Ubuntu 22.04
 
 The first step is to install and use the [Raspberry Pi Imager program]. For this, you will need a microSD card reader or SD-to-USB adapter to flash your microSD.
 
@@ -38,14 +36,114 @@ The Operating system has more steps to it than the others, so be mindful of the 
 Proceed to flash the microSD with this exact Ubuntu 22.04 OS. Once it has finished flashing, you may remove the card and continue the process with the Raspberry Pi.
 
 
-# 2. Downloading Relevant Ubuntu Systems and Tools
+## 2. Downloading Relevant Ubuntu Systems and Tools
 
 The system requires both the use of ROS2 and the O-drive framework to function. This section will describe how to install such packages and how to use them appropriately.
 
-ROS2 is the easier of the two due to the straightforward nature of installing as well as the ample amount of resources to help if any problems occur. As such, it is highly recommended to follow the official install guide for ROS2 on Ubuntu 22.04, also known as ROS2 Humble. The link can be found [here][2]. Be wary of the difference between ROS and ROS2, since ROS is the older, deprecated version of the two. It is crucial that ROS2 is installed.
+# Installing ROS2 Humble 
+ROS2 Humble, the version for Ubuntu 22.04, has an [official installation guide] that will be echoed in the following steps. Be wary of the difference between ROS and ROS2, since ROS is the older, deprecated version of the two. It is crucial that the correct version of ROS2 is installed as well, that being the Humble Hawksbill.
 
-Installing the O-Drive framework will be complicated and convoluted due to how it was not designed to be used on a ROS2 system. Because of this, most of the work will be focused on manually identifying and creating the framework to communicate properly.
+## Step 1: Set Locale
+```
+locale  # check for UTF-8
 
+sudo apt update && sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+locale  # verify settings
+```
+## Step 2: Setup Sources
+Enable the Ubuntu Universe repository.
+```
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+```
+Install the ros2-apt-source package and configure ROS2 repositories.
+```
+sudo apt update && sudo apt install curl -y
+export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-infrastructure/ros-apt-source/releases/latest | grep -F "tag_name" | awk -F\" '{print $4}')
+curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb"
+sudo dpkg -i /tmp/ros2-apt-source.deb
+```
+## Step 3: Install ROS2 Packages
+Update the apt repository caches.
+```
+sudo apt update
+```
+Ensure system is up to date.
+```
+sudo apt upgrade
+```
+Install the desktop tools (ROS, RViz, demos, tutorials).
+```
+sudo apt install ros-humble-desktop
+```
+Source the setup script.
+```
+source /opt/ros/humble/setup.bash
+```
+## Step 4: Try an example
+The following will create a simple talker-listener node to confirm that the systems are installed properly.
+
+Run the talker.
+```
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_cpp talker
+```
+CREATE A NEW TERMINAL, then run the listener.
+```
+source /opt/ros/humble/setup.bash
+ros2 run demo_nodes_py listener
+```
+
+
+# Installing O-Drive and CAN Systems
+
+## Step 1: See if CAN communication is set up
+The CAN module is used to communicate with the multiple O-Drive motor controllers, where this project uses the RS485 CAN HAT module. Try to see if there is any existing CAN systems before beginning.
+```bash
+ifconfig -a
+```
+or
+```bash
+ip link show
+```
+Look for a "can0" anywhere. If it appears, that means your system can recognize and communicate with the CAN module. Thus, you can skip the following steps that relate to creating the CAN systems.
+
+## Step 2: Install CAN systems
+Install CAN utilities.
+```
+sudo apt install can-utils
+candump can0
+```
+If working correctly, the command 'candump can0' should be posting encoded motor information to the terminal. To end this, press Ctrl+C to terminate the command and stop the candump.
+
+Create the Python nodes.
+```
+sudo apt install python3-can
+pip3 install can
+```
+and then creat the ROS2 Python package.
+```
+ros2 pkg create --build-type ament_python can_ros2_example
+```
+Build the package in a new terminal to run the nodes and confirm if they work. You can create a new terminal by pressing Ctrl+Alt+T.
+```
+colcon build
+source install/setup.bash
+```
+Create a new window and run these commands for the talker.
+```
+source install/setup.bash
+ros2 run can_ros2_example can_talker
+```
+...and for the listener.
+```
+source install/setup.bash
+ros2 run can_ros2_example can_listener
+```
 
 
 
@@ -53,17 +151,21 @@ Installing the O-Drive framework will be complicated and convoluted due to how i
 
 # Initial Startup Procedure
 O-Drive startup:
-- sudo ip link set can0 up type can bitrate 1000000
-- candump can0 (Optional: confirms if CAN is communicating)
-- colcon build
-- source install/setup.bash (Optional: use for every new terminal instead of colcon build)
+```
+sudo ip link set can0 up type can bitrate 1000000
+candump can0 #(Optional: confirms if CAN is communicating)
+```
+Press Ctrl+C to terminate the command
 
+Run this when you make a new terminal:
+```
+- colcon build
+- source install/setup.bash
+```
 
 # References
 [1] Raspberry Pi Imager:  https://www.raspberrypi.com/software/
-
 [2] ROS2 for Ubuntu 22.04.5:  https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
-
 [3] MAD M6C10 Motor Link:  https://mad-motor.com/products/mad-components-m6c10-eee?VariantsId=10490
 
 
@@ -89,3 +191,7 @@ Dr. Christopher Hockley, Dr. Monica Garcia
 
 # Thanks
 Dr. Christopher Hockley, Bryan Gonzalez, Dr. Monica Garcia
+
+
+
+
