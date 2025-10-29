@@ -165,7 +165,9 @@ Run this when you make a new terminal:
 
 # References
 [1] Raspberry Pi Imager:  https://www.raspberrypi.com/software/
+
 [2] ROS2 for Ubuntu 22.04.5:  https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
+
 [3] MAD M6C10 Motor Link:  https://mad-motor.com/products/mad-components-m6c10-eee?VariantsId=10490
 
 
