@@ -7,15 +7,15 @@ For missing control libraries, go to https://github.com/ros-controls/gz_ros2_con
 
 This repository contains all of the necessary commands and information to configure and operate the OpenMutt system.
 
-The system is build within Ubuntu 22.04 Linux utilizing ROS2 running on a Raspberry Pi 4. Motor communication is run through the RS485 CAN HAT module. There are 12 motors, those being the MAD M6C10 200KV motors. The system was trained on IsaacLabEureka program with a custom developed [URDF].
+The system is build within Ubuntu 22.04 Linux utilizing ROS2 running on a Raspberry Pi 4. Motor communication is run through the RS485 CAN HAT module. There are 12 motors, those being the MAD M6C10 200KV motors. The system was trained on IsaacLabEureka program with a custom developed [URDF][4].
 
 
 # Hardware Setup
 - 3D printed parts
 - Different 3D print materials
-- MAD M6C10 motors [3]
-- RS485 CAN HAT module
-- Rasp Pi 4
+- [MAD M6C10 motors][3]
+- [RS485 CAN HAT module][5]
+- [Rasp Pi 4][6]
 
 
 # First-time system development overview
@@ -25,15 +25,29 @@ To create your own version, the process starts with flashing a microSD with ubun
 
 ## 1. Setting up Ubuntu 22.04
 
-The first step is to install and use the [Raspberry Pi Imager program]. For this, you will need a microSD card reader or SD-to-USB adapter to flash your microSD.
+The first step is to install and use the [Raspberry Pi Imager program][1]. For this, you will need a microSD card reader or SD-to-USB adapter to flash your microSD.
+
+![alt text](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi1.png "Raspberry Pi Imager")
 
 Select your chosen Raspberry Pi device. It is recommended to use at least the RPi4 with 4GB RAM to properly run the systems.
 
+![alt text](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi2.png "Select Rasperry Pi")
+
 Insert your microSD into your device and select it for the storage option.
 
-The Operating system has more steps to it than the others, so be mindful of the exact OS you will be installing. After pressing the 'Select OS' option, scroll down to find the "Other general-purpose OS" category. From here, select the "Ubuntu" category, then "Ubuntu Desktop 22.04.5 LTS (64-bit)" OS.
+![alt text](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi3.png "Select Storage Option")
 
-Proceed to flash the microSD with this exact Ubuntu 22.04 OS. Once it has finished flashing, you may remove the card and continue the process with the Raspberry Pi.
+The Operating system has more steps to it than the others, so be mindful of the exact OS you will be installing. After pressing the 'Select OS' option, scroll down to find the "Other general-purpose OS" category. 
+
+![alt text](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi4.png "Select OS")
+
+From here, select the "Ubuntu" category, then "Ubuntu Desktop 22.04.5 LTS (64-bit)" OS.
+
+![alt text](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi5.png "Ubuntu Category")
+
+![alt text](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi6.png "Select Ubuntu 22.04.5 LTS 64-Bit")
+
+Proceed to flash the microSD with this exact Ubuntu 22.04 OS by hitting the "next" button. Once it has finished flashing, you may remove the card and continue the process with the Raspberry Pi.
 
 
 ## 2. Downloading Relevant Ubuntu Systems and Tools
@@ -41,7 +55,7 @@ Proceed to flash the microSD with this exact Ubuntu 22.04 OS. Once it has finish
 The system requires both the use of ROS2 and the O-drive framework to function. This section will describe how to install such packages and how to use them appropriately.
 
 # Installing ROS2 Humble 
-ROS2 Humble, the version for Ubuntu 22.04, has an [official installation guide] that will be echoed in the following steps. Be wary of the difference between ROS and ROS2, since ROS is the older, deprecated version of the two. It is crucial that the correct version of ROS2 is installed as well, that being the Humble Hawksbill.
+ROS2 Humble, the version for Ubuntu 22.04, has an [official installation guide][2] that will be echoed in the following steps. Be wary of the difference between ROS and ROS2, since ROS is the older, deprecated version of the two. It is **crucial** that the correct version of ROS2 is installed as well, that being the Humble Hawksbill.
 
 ## Step 1: Set Locale
 ```
@@ -92,7 +106,7 @@ Run the talker.
 source /opt/ros/humble/setup.bash
 ros2 run demo_nodes_cpp talker
 ```
-CREATE A NEW TERMINAL, then run the listener.
+***Create a new terminal***, then run the listener.
 ```
 source /opt/ros/humble/setup.bash
 ros2 run demo_nodes_py listener
@@ -148,6 +162,23 @@ ros2 run can_ros2_example can_listener
 
 
 
+```command history notes
+cd ~/OpenMutt
+sudo apt install net-tools
+dmesg | grep -i can
+lsmod | grep can
+sudo raspi-config
+config
+ls /dev/spidev*
+ifconfig
+bash
+sudo reboot
+
+git clone
+```
+
+
+
 
 # Initial Startup Procedure
 O-Drive startup:
@@ -164,11 +195,17 @@ Run this when you make a new terminal:
 ```
 
 # References
-[1] Raspberry Pi Imager:  https://www.raspberrypi.com/software/
+[1]: https://www.raspberrypi.com/software/
 
-[2] ROS2 for Ubuntu 22.04.5:  https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
+[2]: https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html
 
-[3] MAD M6C10 Motor Link:  https://mad-motor.com/products/mad-components-m6c10-eee?VariantsId=10490
+[3]: https://mad-motor.com/products/mad-components-m6c10-eee?VariantsId=10490
+
+[4]: OpenMutt URDF
+
+[5]: https://www.pishop.us/product/rs485-can-hat-for-raspberry-pi/?srsltid=AfmBOoqb5Yxrp95_a0az1asbqc6uk3X2CKgEbUejP65qDG63-N3vvCE2
+
+[6]: https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 
 
 # Contributors
