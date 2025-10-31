@@ -58,6 +58,8 @@ The system requires both the use of ROS2 and the O-drive framework to function. 
 ROS2 Humble, the version for Ubuntu 22.04, has an [official installation guide][2] that will be echoed in the following steps. Be wary of the difference between ROS and ROS2, since ROS is the older, deprecated version of the two. It is **crucial** that the correct version of ROS2 is installed as well, that being the Humble Hawksbill.
 
 ## Step 1: Set Locale
+When copying these codes, make sure to press Ctrl+Shift+V to paste within the terminal window.
+If you choose to type everything by hand, keep in mind that the commands are *case-sensitive*.
 ```
 locale  # check for UTF-8
 
@@ -85,6 +87,7 @@ sudo dpkg -i /tmp/ros2-apt-source.deb
 Update the apt repository caches.
 ```
 sudo apt update
+sudo apt-get update
 ```
 Ensure system is up to date.
 ```
