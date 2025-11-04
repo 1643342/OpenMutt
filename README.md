@@ -158,12 +158,22 @@ The result should look like this:
 
 Make sure to rerun the "sudo gedit ..." command again to see if the text file properly saved.
 
+For the edit to come into effect, the raspberry pi needs to be reset. Run the following code to do so.
+```
+sudo reboot
+```
+
+After rebooting, run the following line of code to confirm if everything is working as intended.
+```
+sudo dmesg | grep -i '\(can\|spi\)'
+```
+
 
 ### Step 3: Install CAN systems
 Install CAN utilities.
 ```
 sudo apt install can-utils
-sudo ip link set can0 type can bitrate 1000000
+sudo ip link set can0 up type can bitrate 1000000
 candump can0
 ```
 If working correctly, the command 'candump can0' should be posting encoded motor information to the terminal. To end this, press Ctrl+C to terminate the command and stop the candump.
