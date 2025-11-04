@@ -141,7 +141,7 @@ If it appears, that means your system can recognize and communicate with the CAN
 ### Step 2: Edit config file for CAN
 The config file is responsible for the startup procedure for the CAN system. In this case, it will be edited to add a name and communication frequency to the CAN system.
 ```
-gedit /boot/firmware/config.txt
+sudo gedit /boot/firmware/config.txt
 ```
 A text file should open with plenty of text in it already.
 
@@ -156,6 +156,7 @@ The result should look like this:
 
 ![config file line 17](https://github.com/1643342/OpenMutt/raw/master/src/common/images/ConfigFile2.png "config file Line 17")
 
+Make sure to rerun the "sudo gedit ..." command again to see if the text file properly saved.
 
 
 ### Step 3: Install CAN systems
