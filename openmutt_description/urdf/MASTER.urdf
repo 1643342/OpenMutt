@@ -1,0 +1,2242 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="MASTER">
+    <link name="25-2525-751_6-CL">
+        <inertial>
+            <origin xyz="0.007416455132624023 -0.37580000232917643 0.012500004159109004" rpy="0.0 -0.0 0.0" />
+            <mass value="0.2064843066237544" />
+            <inertia ixx="0.009733644790367972" iyy="2.6656740380683747e-05" izz="0.00973359751860935" ixy="-4.7704895589362195e-18" iyz="-1.3877787807814457e-17" ixz="5.5294310796760726e-18" />
+        </inertial>
+        <visual name="25-2525-751_6-CL_visual">
+            <origin xyz="0.007428538392381459 -2.3291742934361538e-09 0.012500004159109786" rpy="-1.5707963267948963 1.5707963267948948 0" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/25-2525-751_6-CL.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="25-2525-751_6-CL_collision">
+            <origin xyz="0.007428538392381459 -2.3291742934361538e-09 0.012500004159109786" rpy="-1.5707963267948963 1.5707963267948948 0" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/25-2525-751_6-CL.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="25-2525-751_6-CL-1">
+        <inertial>
+            <origin xyz="0.007416455132624023 -0.37580000232917693 0.012500004159108454" rpy="0.0 -0.0 0.0" />
+            <mass value="0.2064843066237544" />
+            <inertia ixx="0.009733644790367969" iyy="2.6656740380683747e-05" izz="0.009733597518609343" ixy="-4.87890977618477e-18" iyz="-5.204170427930421e-18" ixz="5.366800753803247e-18" />
+        </inertial>
+        <visual name="25-2525-751_6-CL-1_visual">
+            <origin xyz="0.007428538392381459 -2.3291748618703425e-09 0.012500004159109235" rpy="-1.5707963267948963 1.5707963267948948 0" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/25-2525-751_6-CL-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="25-2525-751_6-CL-1_collision">
+            <origin xyz="0.007428538392381459 -2.3291748618703425e-09 0.012500004159109235" rpy="-1.5707963267948963 1.5707963267948948 0" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/25-2525-751_6-CL-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Master_TubeSuport">
+        <inertial>
+            <origin xyz="-4.1591098209892155e-09 3.974975832932159e-09 0.06870000232917627" rpy="0.0 -0.0 -4.794036587204811e-94" />
+            <mass value="0.17673418494224236" />
+            <inertia ixx="0.00832659177530051" iyy="0.008326591775300117" izz="1.3584631703514663e-05" ixy="-3.469446951953614e-18" iyz="2.6020852139652106e-18" ixz="-5.204170427930421e-18" />
+        </inertial>
+        <visual name="Master_TubeSuport_visual">
+            <origin xyz="-4.159109181500753e-09 3.974975868459296e-09 0.44450000232917797" rpy="3.141592653589793 1.3878282328941161e-15 -4.2847669856627214e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Master_TubeSuport.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Master_TubeSuport_collision">
+            <origin xyz="-4.159109181500753e-09 3.974975868459296e-09 0.44450000232917797" rpy="3.141592653589793 1.3878282328941161e-15 -4.2847669856627214e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Master_TubeSuport.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Mid-BatteryCover-1">
+        <inertial>
+            <origin xyz="-0.016034271317332056 -0.05080987311939609 -0.053605696029770916" rpy="0.0 -0.0 0.0" />
+            <mass value="0.06301920644778568" />
+            <inertia ixx="0.00013885582619310374" iyy="0.000130652075136347" izz="0.00016712561575269076" ixy="5.782316266078613e-08" iyz="-6.007432872383051e-07" ixz="1.7441486892859565e-06" />
+        </inertial>
+        <visual name="Body_Mid-BatteryCover-1_visual">
+            <origin xyz="-0.09650000415910796 -0.050900002329175895 3.974976365839212e-09" rpy="-1.5707963267949008 -7.407269242420967e-16 -3.141592653589788" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-BatteryCover-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Mid-BatteryCover-1_collision">
+            <origin xyz="-0.09650000415910796 -0.050900002329175895 3.974976365839212e-09" rpy="-1.5707963267949008 -7.407269242420967e-16 -3.141592653589788" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-BatteryCover-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Mid-TopCover-Side-1">
+        <inertial>
+            <origin xyz="-0.04925532486085668 -0.11470000232917418 0.001118890451600967" rpy="0.0 -5.473822126268817e-48 0.0" />
+            <mass value="0.14614725408529952" />
+            <inertia ixx="0.0008035669062060914" iyy="0.00015346580598958685" izz="0.0009513537308216966" ixy="-1.9081958235744875e-17" iyz="-1.9515639104739108e-17" ixz="9.672367488565431e-06" />
+        </inertial>
+        <visual name="Body_Mid-TopCover-Side-1_visual">
+            <origin xyz="-0.09400000415910721 -0.23940000232917424 -0.002879996025022944" rpy="1.5707963267948966 -2.3533091804315424e-17 1.5707963267948997" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-TopCover-Side-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Mid-TopCover-Side-1_collision">
+            <origin xyz="-0.09400000415910721 -0.23940000232917424 -0.002879996025022944" rpy="1.5707963267948966 -2.3533091804315424e-17 1.5707963267948997" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-TopCover-Side-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Mid-BatteryCover-2">
+        <inertial>
+            <origin xyz="0.0160342629991157 -0.050990131538954736 -0.05360569602977083" rpy="0.0 -0.0 0.0" />
+            <mass value="0.06301920644778568" />
+            <inertia ixx="0.0001388558261931046" iyy="0.00013065207513636217" izz="0.00016712561575269423" ixy="5.782316266078613e-08" iyz="6.007432872383051e-07" ixz="-1.7441486892877996e-06" />
+        </inertial>
+        <visual name="Body_Mid-BatteryCover-2_visual">
+            <origin xyz="0.09649999584089156 -0.050900002329175006 3.974976365839212e-09" rpy="-1.5707963267949003 5.412337245047649e-16 4.46639319661238e-15" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-BatteryCover-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Mid-BatteryCover-2_collision">
+            <origin xyz="0.09649999584089156 -0.050900002329175006 3.974976365839212e-09" rpy="-1.5707963267949003 5.412337245047649e-16 4.46639319661238e-15" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-BatteryCover-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Sd_Body_Mid-Sideplate-1">
+        <inertial>
+            <origin xyz="0.0007835569211491844 -0.061775792953374806 -0.12499999767082436" rpy="0.0 -0.0 0.0" />
+            <mass value="0.21999217020718975" />
+            <inertia ixx="0.0018788865300234867" iyy="0.0015286021640789418" izz="0.0003576293373641973" ixy="7.737654057299054e-06" iyz="9.974659986866641e-18" ixz="8.673617379884035e-17" />
+        </inertial>
+        <visual name="Sd_Body_Mid-Sideplate-1_visual">
+            <origin xyz="0.17335499584088954 -0.027447127181830393 2.329176425064361e-09" rpy="-3.1415926535897922 -5.606626274357082e-15 -2.7731891634644932e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Sd_Body_Mid-Sideplate-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Sd_Body_Mid-Sideplate-1_collision">
+            <origin xyz="0.17335499584088954 -0.027447127181830393 2.329176425064361e-09" rpy="-3.1415926535897922 -5.606626274357082e-15 -2.7731891634644932e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Sd_Body_Mid-Sideplate-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Mid-Brace-1">
+        <inertial>
+            <origin xyz="0.044449995841023694 -0.003924142304616236 0.4635500023291776" rpy="0.0 -0.0 0.0" />
+            <mass value="0.05720945486392382" />
+            <inertia ixx="6.94246113768426e-06" iyy="0.00034686032550880225" izz="0.0003522512259110165" ixy="-3.252606517456513e-17" iyz="2.168404344971009e-19" ixz="8.673617379884035e-19" />
+        </inertial>
+        <visual name="SD_Body_Mid-Brace-1_visual">
+            <origin xyz="0.04444999584089171 -0.0481471271818303 0.46990000232917767" rpy="3.141592653589793 1.3878553379484283e-15 -4.2847669856627214e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-Brace-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Mid-Brace-1_collision">
+            <origin xyz="0.04444999584089171 -0.0481471271818303 0.46990000232917767" rpy="3.141592653589793 1.3878553379484283e-15 -4.2847669856627214e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-Brace-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Mid-Brace-2">
+        <inertial>
+            <origin xyz="-4.158976025792071e-09 -0.07492999767082498 0.02043414230461627" rpy="0.0 -0.0 0.0" />
+            <mass value="0.05720945486392382" />
+            <inertia ixx="6.942461137684694e-06" iyy="0.0003522512259110178" izz="0.0003468603255088066" ixy="8.673617379884035e-19" iyz="-4.336808689942018e-19" ixz="3.230922474006803e-17" />
+        </inertial>
+        <visual name="SD_Body_Mid-Brace-2_visual">
+            <origin xyz="-4.159108009105239e-09 -0.06857999767082493 0.06465712718183034" rpy="1.5707963267948966 -4.2847669856627204e-16 3.4179381931776933e-46" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-Brace-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Mid-Brace-2_collision">
+            <origin xyz="-4.159108009105239e-09 -0.06857999767082493 0.06465712718183034" rpy="1.5707963267948966 -4.2847669856627204e-16 3.4179381931776933e-46" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-Brace-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Mid-ELECTRICAL-BulkHead-1">
+        <inertial>
+            <origin xyz="-4.159108577539428e-09 -0.0838610270477761 -0.004992001614288668" rpy="0.0 -0.0 0.0" />
+            <mass value="0.504992174654775" />
+            <inertia ixx="0.0009934613321743446" iyy="0.0051765436202978465" izz="0.006161598627752639" ixy="-3.391384395534658e-16" iyz="-7.599866287850976e-08" ixz="3.469446951953614e-17" />
+        </inertial>
+        <visual name="SD_Body_Mid-ELECTRICAL-BulkHead-1_visual">
+            <origin xyz="-4.159108257795197e-09 -0.06910212718183016 -0.009999997670825067" rpy="-5.608315565968252e-15 2.7755575615628633e-15 3.1415926535897927" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-ELECTRICAL-BulkHead-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Mid-ELECTRICAL-BulkHead-1_collision">
+            <origin xyz="-4.159108257795197e-09 -0.06910212718183016 -0.009999997670825067" rpy="-5.608315565968252e-15 2.7755575615628633e-15 3.1415926535897927" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-ELECTRICAL-BulkHead-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Mid-EletricalPlate-1">
+        <inertial>
+            <origin xyz="0.12499999584089146 -0.07464770132858295 -0.00302640871916422" rpy="0.0 4.794036587204811e-94 0.0" />
+            <mass value="0.43565756936552175" />
+            <inertia ixx="0.001915183630662988" iyy="0.003689782337101228" izz="0.005602377371191854" ixy="-2.0816681711721685e-17" iyz="1.5011852245137847e-07" ixz="3.469446951953614e-18" />
+        </inertial>
+        <visual name="Body_Mid-EletricalPlate-1_visual">
+            <origin xyz="0.12499999584089139 -0.0750000023291744 3.974976134912822e-09" rpy="-1.570796326794895 5.889463486100245e-16 -1.5707963267948912" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-EletricalPlate-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Mid-EletricalPlate-1_collision">
+            <origin xyz="0.12499999584089139 -0.0750000023291744 3.974976134912822e-09" rpy="-1.570796326794895 5.889463486100245e-16 -1.5707963267948912" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-EletricalPlate-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Sd_Body_Mid-Sideplate-2">
+        <inertial>
+            <origin xyz="-0.0007835652393647763 0.052779207046625504 0.12500000232917502" rpy="0.0 -0.0 -6.908934844075556e-77" />
+            <mass value="0.21999217020718975" />
+            <inertia ixx="0.0018788865300237503" iyy="0.0015286021640786573" izz="0.0003576293373639605" ixy="-7.737654057269564e-06" iyz="6.657001339060997e-17" ixz="5.941427905220564e-17" />
+        </inertial>
+        <visual name="Sd_Body_Mid-Sideplate-2_visual">
+            <origin xyz="-0.1733550041591085 0.08710787281816992 2.329175075033163e-09" rpy="-5.631848512188782e-15 2.7755575615628633e-15 3.1415926535897927" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Sd_Body_Mid-Sideplate-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Sd_Body_Mid-Sideplate-2_collision">
+            <origin xyz="-0.1733550041591085 0.08710787281816992 2.329175075033163e-09" rpy="-5.631848512188782e-15 2.7755575615628633e-15 3.1415926535897927" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Sd_Body_Mid-Sideplate-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Mid-ELECTRICAL-BulkHead-2">
+        <inertial>
+            <origin xyz="0.15932025584089207 0.051261737047776354 -0.004992006272638782" rpy="0.0 -0.0 0.0" />
+            <mass value="0.504992174654775" />
+            <inertia ixx="0.000993461332174322" iyy="0.005176543620297867" izz="0.006161598627752656" ixy="-3.4867941867133823e-16" iyz="7.599866290973478e-08" ixz="-2.42861286636753e-17" />
+        </inertial>
+        <visual name="SD_Body_Mid-ELECTRICAL-BulkHead-2_visual">
+            <origin xyz="0.15932025584089174 0.036502837181830394 -0.010000002329175271" rpy="5.277731297279451e-16 -5.551115123125553e-17 2.7731891634644932e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-ELECTRICAL-BulkHead-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Mid-ELECTRICAL-BulkHead-2_collision">
+            <origin xyz="0.15932025584089174 0.036502837181830394 -0.010000002329175271" rpy="5.277731297279451e-16 -5.551115123125553e-17 2.7731891634644932e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-ELECTRICAL-BulkHead-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Mid-TopPlate-Center-1">
+        <inertial>
+            <origin xyz="-4.159096249622962e-09 -0.00046459067423163967 0.12500335580504207" rpy="0.0 -0.0 -6.908934844075556e-77" />
+            <mass value="0.2466753637717956" />
+            <inertia ixx="0.0012984010643977868" iyy="0.0016007559460211734" izz="0.0003052829803863819" ixy="1.496198998029996e-17" iyz="-3.843218889833244e-10" ixz="3.9898639947466563e-17" />
+        </inertial>
+        <visual name="SD_Body_Mid-TopPlate-Center-1_visual">
+            <origin xyz="-4.159104918244338e-09 0.0871078728181698 0.2500000023291734" rpy="-3.141592653589788 -2.728720027711488e-15 -2.773189163464471e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-TopPlate-Center-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Mid-TopPlate-Center-1_collision">
+            <origin xyz="-4.159104918244338e-09 0.0871078728181698 0.2500000023291734" rpy="-3.141592653589788 -2.728720027711488e-15 -2.773189163464471e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Mid-TopPlate-Center-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Mid-TopCover-Side-2">
+        <inertial>
+            <origin xyz="0.049255316542639635 -0.1147000023291771 0.0011188904516001809" rpy="0.0 -6.908934844075559e-77 8.758115402030109e-47" />
+            <mass value="0.14614725408529952" />
+            <inertia ixx="0.000803566906205942" iyy="0.00015346580598959644" izz="0.0009513537308217001" ixy="-1.7347234759768068e-17" iyz="-8.673617379884344e-19" ixz="-9.672367488555147e-06" />
+        </inertial>
+        <visual name="Body_Mid-TopCover-Side-2_visual">
+            <origin xyz="0.09399999584088953 0.009999997670823007 -0.00287999602502365" rpy="1.570796326794896 7.565944523726415e-16 -1.5707963267948972" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-TopCover-Side-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Mid-TopCover-Side-2_collision">
+            <origin xyz="0.09399999584088953 0.009999997670823007 -0.00287999602502365" rpy="1.570796326794896 7.565944523726415e-16 -1.5707963267948972" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Mid-TopCover-Side-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="base_link">
+        <inertial>
+            <origin xyz="8.937084784182801e-15 -0.05680711075179687 0.12499999999999999" rpy="0.0 0.0 0.0" />
+            <mass value="0.7725608420592841" />
+            <inertia ixx="0.0041178214750487024" iyy="0.011446150016082957" izz="0.007555884655228891" ixy="2.0322841296303707e-18" iyz="-3.469446951953609e-18" ixz="-6.93889390390723e-18" />
+        </inertial>
+        <visual name="base_link_visual">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="base_link_collision">
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Hip_Main-Short-1">
+        <inertial>
+            <origin xyz="0.09791941222089688 0.017856505434071027 0.012277652138186714" rpy="0.0 -0.0 0.0" />
+            <mass value="0.24696197862276034" />
+            <inertia ixx="0.0002122756969488574" iyy="0.0008150264310722742" izz="0.0010023984141381466" ixy="6.00666051933348e-08" iyz="-2.211650204531229e-06" ixz="-1.6493581798224146e-06" />
+        </inertial>
+        <visual name="Hip_Main-Short-1_visual">
+            <origin xyz="0.057499997670825954 0.017853223542058833 0.012543260912038097" rpy="-1.570796326795021 -1.5589949642936707 -1.57079632679479" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Hip_Main-Short-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Hip_Main-Short-1_collision">
+            <origin xyz="0.057499997670825954 0.017853223542058833 0.012543260912038097" rpy="-1.570796326795021 -1.5589949642936707 -1.57079632679479" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Hip_Main-Short-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_ideler-1">
+        <inertial>
+            <origin xyz="0.012541967207875296 0.005396036158658619 -0.00014801524732143355" rpy="0.0 -0.0 0.0" />
+            <mass value="0.13444706155286565" />
+            <inertia ixx="9.410479830088982e-05" iyy="0.0002466957375545742" izz="0.0001649403199800244" ixy="-4.574912995351224e-06" iyz="5.399271325363551e-08" ixz="8.361109376976575e-07" />
+        </inertial>
+        <visual name="SD_ideler-1_visual">
+            <origin xyz="-4.1591083999037435e-09 0.0005999976708225141 3.974976277021369e-09" rpy="-1.5707963267948966 -0.01180136250122779 -3.141592653589792" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_ideler-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_ideler-1_collision">
+            <origin xyz="-4.1591083999037435e-09 0.0005999976708225141 3.974976277021369e-09" rpy="-1.5707963267948966 -0.01180136250122779 -3.141592653589792" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_ideler-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-Top-Plate-V3.2-1">
+        <inertial>
+            <origin xyz="-0.0019489851736167818 2.3000011851612712e-05 -1.833547027541016e-09" rpy="-3.851859888774472e-34 -0.0 1.5407786750949625e-33" />
+            <mass value="0.01500275606707962" />
+            <inertia ixx="7.0035120999900366e-06" iyy="3.522469736080762e-06" izz="3.521984815959957e-06" ixy="-4.108867311278516e-08" iyz="-2.765765921274641e-16" ixz="-3.1886564453729738e-18" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-Top-Plate-V3.2-1_visual">
+            <origin xyz="0.006999508763213219 -8.260931178939223e-05 -1.8336445162248082e-09" rpy="1.5707963267948741 -1.5124326654706304 -1.5825976892960705" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-Plate-V3.2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-Top-Plate-V3.2-1_collision">
+            <origin xyz="0.006999508763213219 -8.260931178939223e-05 -1.8336445162248082e-09" rpy="1.5707963267948741 -1.5124326654706304 -1.5825976892960705" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-Plate-V3.2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_foot-1-1">
+        <inertial>
+            <origin xyz="0.0073769893242708355 -0.0536187092068576 0.0024212056330614974" rpy="0.0 3.761581922631321e-37 0.0" />
+            <mass value="0.08708090498237109" />
+            <inertia ixx="7.537124137675999e-05" iyy="1.657590034152941e-05" izz="7.654086118292e-05" ixy="6.939387532637782e-07" iyz="2.597612855461598e-06" ixz="-3.066945222176773e-08" />
+        </inertial>
+        <visual name="SD_foot-1-1_visual">
+            <origin xyz="-0.007806014072021899 -0.03820238760449193 0.0030823871497972434" rpy="1.5707963267947351 1.5683658452772473 1.5825976892958034" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_foot-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_foot-1-1_collision">
+            <origin xyz="-0.007806014072021899 -0.03820238760449193 0.0030823871497972434" rpy="1.5707963267947351 1.5683658452772473 1.5825976892958034" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_foot-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Shank-Bushing-1">
+        <inertial>
+            <origin xyz="0.0007122901526697883 8.411062518760559e-06 3.410322633179419e-09" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0013221100116788842" />
+            <inertia ixx="3.8022967448442073e-07" iyy="1.9299686724648072e-07" izz="1.929707845188945e-07" ixy="2.2100126365400272e-09" iyz="2.0901384766439047e-17" ixz="-1.6353033959303034e-19" />
+        </inertial>
+        <visual name="Leg_Shank-Bushing-1_visual">
+            <origin xyz="2.0722326141142667e-09 4.7024241922599685e-09 3.4101701773536776e-09" rpy="3.1415926535897833 1.5124326654706317 1.582597689296098" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Shank-Bushing-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Shank-Bushing-1_collision">
+            <origin xyz="2.0722326141142667e-09 4.7024241922599685e-09 3.4101701773536776e-09" rpy="3.1415926535897833 1.5124326654706317 1.582597689296098" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Shank-Bushing-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_TPU_Foot-1">
+        <inertial>
+            <origin xyz="0.0002680546320652022 -5.520443343718373e-05 0.02271297023332359" rpy="-9.629649721936181e-35 -1.6313261169996311e-55 0.0" />
+            <mass value="0.0892063188904472" />
+            <inertia ixx="3.7915772595025626e-05" iyy="3.791457895677487e-05" izz="4.686388188921633e-05" ixy="-2.56724613928585e-10" iyz="-2.175280147394088e-08" ixz="1.0561949534974063e-07" />
+        </inertial>
+        <visual name="SD_TPU_Foot-1_visual">
+            <origin xyz="0.00022480823649691838 -4.629764729761621e-05 0.019048614708933657" rpy="-1.5825977241497302 0.002430312270076422 -1.5708250091790223" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_TPU_Foot-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_TPU_Foot-1_collision">
+            <origin xyz="0.00022480823649691838 -4.629764729761621e-05 0.019048614708933657" rpy="-1.5825977241497302 0.002430312270076422 -1.5708250091790223" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_TPU_Foot-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Hip_motor_mount-2">
+        <inertial>
+            <origin xyz="6.02100178104692e-06 0.0169759534234309 0.05705887172881461" rpy="-3.8518598887744726e-34 -0.0 0.0" />
+            <mass value="0.079596982187537" />
+            <inertia ixx="0.0002100213002742199" iyy="0.00013425523399673492" izz="7.875785497231909e-05" ixy="-5.973582522730832e-11" iyz="1.008043072124034e-06" ixz="8.350475834677932e-09" />
+        </inertial>
+        <visual name="SD_Hip_motor_mount-2_visual">
+            <origin xyz="0.007499997670829366 0.016615153974976333 0.07651389584089202" rpy="-1.570796326794975 -1.552660358329355 -1.5707963267948253" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Hip_motor_mount-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Hip_motor_mount-2_collision">
+            <origin xyz="0.007499997670829366 0.016615153974976333 0.07651389584089202" rpy="-1.570796326794975 -1.552660358329355 -1.5707963267948253" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Hip_motor_mount-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Hip_Main-Short-2">
+        <inertial>
+            <origin xyz="0.09791941222089472 0.01821570973633016 -0.011737662273621866" rpy="3.8518598887744726e-34 -0.0 0.0" />
+            <mass value="0.24696197862276034" />
+            <inertia ixx="0.00021227569694885068" iyy="0.0008150619688064781" izz="0.0010023628764039634" ixy="-7.051336433435035e-08" iyz="-3.398368641750751e-06" ixz="1.6489445921140896e-06" />
+        </inertial>
+        <visual name="Hip_Main-Short-2_visual">
+            <origin xyz="0.05749999767082442 0.018220674078166472 -0.01200324492906475" rpy="1.5707963267949803 1.552660358329355 1.5707963267949732" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Hip_Main-Short-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Hip_Main-Short-2_collision">
+            <origin xyz="0.05749999767082442 0.018220674078166472 -0.01200324492906475" rpy="1.5707963267949803 1.552660358329355 1.5707963267949732" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Hip_Main-Short-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_ideler-2">
+        <inertial>
+            <origin xyz="-0.012540786252453416 0.005396036158658255 0.00022746814276862538" rpy="0.0 -6.718620209059983e-95 0.0" />
+            <mass value="0.13444706155286565" />
+            <inertia ixx="9.411823327962589e-05" iyy="0.00024669573755456593" izz="0.0001649268850012868" ixy="4.574479186083419e-06" iyz="-8.297170729897876e-08" ixz="1.2847469513721163e-06" />
+        </inertial>
+        <visual name="SD_ideler-2_visual">
+            <origin xyz="-4.1591077604152816e-09 0.0005999976708222831 3.974976312548506e-09" rpy="1.5707963267948966 0.018135968465541174 1.3887419933798956e-15" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_ideler-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_ideler-2_collision">
+            <origin xyz="-4.1591077604152816e-09 0.0005999976708222831 3.974976312548506e-09" rpy="1.5707963267948966 0.018135968465541174 1.3887419933798956e-15" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_ideler-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-Top-Plate-V3.2-2">
+        <inertial>
+            <origin xyz="0.0019487969277205508 -3.534261415478746e-05 -4.081398259359048e-09" rpy="9.62964972193618e-35 6.018531076210113e-36 1.2998109951685582e-37" />
+            <mass value="0.01500275606707962" />
+            <inertia ixx="7.002851870079539e-06" iyy="3.523129965979018e-06" izz="3.5219848159720804e-06" ixy="-6.313581743500571e-08" iyz="1.2109184812493023e-16" ixz="2.2768245161022524e-18" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-Top-Plate-V3.2-2_visual">
+            <origin xyz="-0.006998848481583053 0.00012694939455829335 -4.081300635228047e-09" rpy="-1.5707963267949463 1.545289343286243 -1.5889322952605152" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-Plate-V3.2-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-Top-Plate-V3.2-2_collision">
+            <origin xyz="-0.006998848481583053 0.00012694939455829335 -4.081300635228047e-09" rpy="-1.5707963267949463 1.545289343286243 -1.5889322952605152" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-Plate-V3.2-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_TPU_Foot-2">
+        <inertial>
+            <origin xyz="0.00041151486042508625 -0.0010213347699446552 0.022687915496015378" rpy="0.0 -8.352389719038113e-53 -2.4074124304840454e-35" />
+            <mass value="0.0892063188904472" />
+            <inertia ixx="3.791746379911905e-05" iyy="3.79326219893672e-05" izz="4.684414765262697e-05" ixy="-7.291133757294716e-09" iyz="-4.0198208163012865e-07" ixz="1.619650930837795e-07" />
+        </inertial>
+        <visual name="SD_TPU_Foot-2_visual">
+            <origin xyz="0.0003451242573569857 -0.000856559556253922 0.01902760233898924" rpy="-1.552642001400682 -0.044971536563351185 1.5699800845618173" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_TPU_Foot-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_TPU_Foot-2_collision">
+            <origin xyz="0.0003451242573569857 -0.000856559556253922 0.01902760233898924" rpy="-1.552642001400682 -0.044971536563351185 1.5699800845618173" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_TPU_Foot-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Thigh-2">
+        <inertial>
+            <origin xyz="-0.011673421680551499 0.0019761891952151923 0.0776841630028603" rpy="0.0 -0.0 0.0" />
+            <mass value="0.5098055795551252" />
+            <inertia ixx="0.00304955716695836" iyy="0.002718010565345791" izz="0.0004476718884183354" ixy="-7.566353333962993e-07" iyz="-5.796674474631605e-05" ixz="-3.564906871401617e-05" />
+        </inertial>
+        <visual name="Leg_Thigh-2_visual">
+            <origin xyz="-0.01904686746219802 -2.329175752269208e-09 0.00034547286221929595" rpy="-1.5526544583373096 0.02550278792019612 1.5712589955947422" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Thigh-2_collision">
+            <origin xyz="-0.01904686746219802 -2.329175752269208e-09 0.00034547286221929595" rpy="-1.5526544583373096 0.02550278792019612 1.5712589955947422" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_shank-main-V2-2">
+        <inertial>
+            <origin xyz="-0.011545766227852567 0.013224667133533059 -0.08684511630109658" rpy="0.0 7.41353300766478e-37 0.0" />
+            <mass value="0.193552591752683" />
+            <inertia ixx="0.0005642461781932423" iyy="0.0005331736752215083" izz="5.662776160594157e-05" ixy="2.187121193710735e-06" iyz="7.554662468280342e-05" ixz="-1.5165551592165316e-05" />
+        </inertial>
+        <visual name="SD_shank-main-V2-2_visual">
+            <origin xyz="-0.014497620130841753 -4.720670205848876e-09 -0.00026296011007854504" rpy="1.5889506521891106 0.04497153656334914 -1.5699800845618173" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_shank-main-V2-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_shank-main-V2-2_collision">
+            <origin xyz="-0.014497620130841753 -4.720670205848876e-09 -0.00026296011007854504" rpy="1.5889506521891106 0.04497153656334914 -1.5699800845618173" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_shank-main-V2-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-Top-V3.2-2">
+        <inertial>
+            <origin xyz="0.007821484449225835 -1.9713161747241248e-05 -0.0009201120616258419" rpy="0.0 -0.0 0.0" />
+            <mass value="0.055618101200440404" />
+            <inertia ixx="2.6396321950286942e-05" iyy="1.571895623220937e-05" izz="1.3133282755707978e-05" ixy="-3.8216991694325144e-07" iyz="-5.8979766019573364e-08" ixz="-1.9136011635345723e-07" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-Top-V3.2-2_visual">
+            <origin xyz="0.008998521518416354 4.081300644109831e-09 -0.000163210605441817" rpy="1.5889381952524864 0.025502787920196626 1.5712589955947411" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-V3.2-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-Top-V3.2-2_collision">
+            <origin xyz="0.008998521518416354 4.081300644109831e-09 -0.000163210605441817" rpy="1.5889381952524864 0.025502787920196626 1.5712589955947411" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-V3.2-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Shank-Bushing-2">
+        <inertial>
+            <origin xyz="-0.0007122179182285038 -1.2915793341257143e-05 4.720517512435407e-09" rpy="-7.703719777548943e-34 3.009265538105056e-36 5.434567120766408e-38" />
+            <mass value="0.0013221100116788842" />
+            <inertia ixx="3.801941630809919e-07" iyy="1.9303237865092462e-07" izz="1.929707845178104e-07" ixy="3.395849604770004e-09" iyz="-9.147956107357248e-18" ixz="2.5072176308257394e-19" />
+        </inertial>
+        <visual name="Leg_Shank-Bushing-2_visual">
+            <origin xyz="2.620558774424353e-09 2.4322513070274e-09 4.7206701836444155e-09" rpy="-8.455668083364348e-14 -1.5452893432862433 1.5889322952605494" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Shank-Bushing-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Shank-Bushing-2_collision">
+            <origin xyz="2.620558774424353e-09 2.4322513070274e-09 4.7206701836444155e-09" rpy="-8.455668083364348e-14 -1.5452893432862433 1.5889322952605494" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Shank-Bushing-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-V3.2-2">
+        <inertial>
+            <origin xyz="-0.010296169024312718 0.0014797242451325232 5.818685103637922e-05" rpy="0.0 -0.0 0.0" />
+            <mass value="0.06922260787257782" />
+            <inertia ixx="3.2978555747173455e-05" iyy="1.835206393518453e-05" izz="1.9457110652900546e-05" ixy="-5.547222269221964e-07" iyz="-5.6066588000047906e-08" ixz="3.0445397562083774e-07" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-V3.2-2_visual">
+            <origin xyz="-0.007498763452589188 0.00013601257151051982 -4.720670254698689e-09" rpy="1.570796326794847 -1.5258173883565547 -1.5889322952604086" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-V3.2-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-V3.2-2_collision">
+            <origin xyz="-0.007498763452589188 0.00013601257151051982 -4.720670254698689e-09" rpy="1.570796326794847 -1.5258173883565547 -1.5889322952604086" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-V3.2-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Thigh-Plate-2">
+        <inertial>
+            <origin xyz="-0.0083319038496915 0.06269950928840098 -0.04541379684780206" rpy="-7.703719777548943e-34 -3.009265538105056e-36 -5.434567120766408e-38" />
+            <mass value="0.33127075701520237" />
+            <inertia ixx="0.001934791290938309" iyy="0.00025042896817290005" izz="0.0017047788649000454" ixy="-2.8631209586134357e-05" iyz="3.719691104458535e-05" ixz="6.254749424427707e-07" />
+        </inertial>
+        <visual name="Leg_Thigh-Plate-2_visual">
+            <origin xyz="-0.0006840063167999233 -0.037711397706031095 -0.04285599408130042" rpy="1.5707963267949812 -1.5452893432862433 1.5526603583292444" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-Plate-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Thigh-Plate-2_collision">
+            <origin xyz="-0.0006840063167999233 -0.037711397706031095 -0.04285599408130042" rpy="1.5707963267949812 -1.5452893432862433 1.5526603583292444" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-Plate-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cartilage-Outer-2">
+        <inertial>
+            <origin xyz="-0.0005999033585855784 4.720696926696633e-09 1.0881998327612052e-05" rpy="0.0 -0.0 -4.176194859519056e-53" />
+            <mass value="0.003925813316644754" />
+            <inertia ixx="1.9028675145942547e-06" iyy="9.520612555471031e-07" izz="9.523740571661284e-07" ixy="-1.2536745974120985e-19" iyz="-7.121857765094868e-18" ixz="-1.7245683147976053e-08" />
+        </inertial>
+        <visual name="Leg_Knee-Cartilage-Outer-2_visual">
+            <origin xyz="-2.0298866587609156e-09 4.720670254698689e-09 1.0137534900422906e-09" rpy="0.01815432539421459 -0.044971536563349145 1.569980084561817" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cartilage-Outer-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cartilage-Outer-2_collision">
+            <origin xyz="-2.0298866587609156e-09 4.720670254698689e-09 1.0137534900422906e-09" rpy="0.01815432539421459 -0.044971536563349145 1.569980084561817" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cartilage-Outer-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_foot-1-2">
+        <inertial>
+            <origin xyz="-0.005771901853803385 -0.05364044066264242 -0.0049635168819671" rpy="0.0 -0.0 0.0" />
+            <mass value="0.08708090498237109" />
+            <inertia ixx="7.536021185270553e-05" iyy="1.696757861450321e-05" izz="7.616021243398582e-05" ixy="1.0595274438918157e-06" iyz="-5.42426645236795e-06" ixz="9.837508566372566e-08" />
+        </inertial>
+        <visual name="SD_foot-1-2_visual">
+            <origin xyz="0.008942593142291103 -0.03776274615694398 -0.004884909811409983" rpy="1.570796326794946 -1.5258173883565544 -1.55266035832939" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_foot-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_foot-1-2_collision">
+            <origin xyz="0.008942593142291103 -0.03776274615694398 -0.004884909811409983" rpy="1.570796326794946 -1.5258173883565544 -1.55266035832939" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_foot-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Leg-Motor-1">
+        <inertial>
+            <origin xyz="2.5539435561938716e-07 -0.07648274034150278 0.008029117489473858" rpy="0.0 -0.0 0.0" />
+            <mass value="0.8044250044347343" />
+            <inertia ixx="0.0016108641472565646" iyy="0.008287227252489968" izz="0.009863815955693578" ixy="1.2261928781370779e-09" iyz="8.898906401523521e-08" ixz="7.707203278362051e-10" />
+        </inertial>
+        <visual name="SD_Body_Leg-Motor-1_visual">
+            <origin xyz="4.1591081512137866e-09 -0.06350000397497615 2.329175252668847e-09" rpy="-3.1415926535897927 1.0408340855860665e-16 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Leg-Motor-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Leg-Motor-1_collision">
+            <origin xyz="4.1591081512137866e-09 -0.06350000397497615 2.329175252668847e-09" rpy="-3.1415926535897927 1.0408340855860665e-16 3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Leg-Motor-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Leg-Bearing-1">
+        <inertial>
+            <origin xyz="0.04444999584077454 0.06274265177408032 0.0079207324113111" rpy="0.0 -0.0 0.0" />
+            <mass value="0.6178640190776015" />
+            <inertia ixx="0.0015162457390940918" iyy="0.006260451717023434" izz="0.007750218729260169" ixy="-1.5655879370690684e-15" iyz="2.111881152056655e-07" ixz="-1.7347234759768067e-18" />
+        </inertial>
+        <visual name="SD_Body_Leg-Bearing-1_visual">
+            <origin xyz="0.044449995840891925 0.04814712718183023 0.015999997670822292" rpy="3.141592653589793 1.3013360045840767e-15 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Leg-Bearing-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Leg-Bearing-1_collision">
+            <origin xyz="0.044449995840891925 0.04814712718183023 0.015999997670822292" rpy="3.141592653589793 1.3013360045840767e-15 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Leg-Bearing-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Electrical-Leg-Tray-1">
+        <inertial>
+            <origin xyz="0.033192503810448845 -0.09000000232917692 -0.002495221581300395" rpy="0.0 -0.0 0.0" />
+            <mass value="0.07313690215541274" />
+            <inertia ixx="0.00023833998813043496" iyy="3.350385881856774e-05" izz="0.00027153906663263724" ixy="2.1684043449710093e-19" iyz="5.178277542249787e-35" ixz="2.737574302049476e-19" />
+        </inertial>
+        <visual name="Body_Electrical-Leg-Tray-1_visual">
+            <origin xyz="0.033192503810458227 -0.09000000232917692 3.974976170439959e-09" rpy="-1.5707963267948966 1.0260889360402778e-15 1.2663162744128304e-15" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Electrical-Leg-Tray-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Electrical-Leg-Tray-1_collision">
+            <origin xyz="0.033192503810458227 -0.09000000232917692 3.974976170439959e-09" rpy="-1.5707963267948966 1.0260889360402778e-15 1.2663162744128304e-15" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Electrical-Leg-Tray-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Bearing-1">
+        <inertial>
+            <origin xyz="-4.159108346613039e-09 -3.974976339193859e-09 -0.004950002329177803" rpy="0.0 -0.0 0.0" />
+            <mass value="0.19905131053144925" />
+            <inertia ixx="0.00016335494138557073" iyy="0.00016335494138555902" izz="0.00032345837961360487" ixy="2.168404344971009e-19" iyz="-1.0842021724855044e-19" ixz="-5.142177891062851e-51" />
+        </inertial>
+        <visual name="Body_Bearing-1_visual">
+            <origin xyz="-4.159108293322333e-09 -3.974976312548506e-09 -2.3291777573319905e-09" rpy="-1.5707963267948961 1.1903679122301826e-15 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Bearing-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Bearing-1_collision">
+            <origin xyz="-4.159108293322333e-09 -3.974976312548506e-09 -2.3291777573319905e-09" rpy="-1.5707963267948961 1.1903679122301826e-15 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Bearing-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Leg-Center-1">
+        <inertial>
+            <origin xyz="0.04444988700643915 0.008119611476699493 0.11995004620366373" rpy="0.0 -0.0 0.0" />
+            <mass value="0.6151717763496739" />
+            <inertia ixx="0.0037081964982785386" iyy="0.0038992735261566096" izz="0.001100931669123499" ixy="2.0016881902007455e-09" iyz="-7.830564931242748e-08" ixz="-1.4065317053418847e-11" />
+        </inertial>
+        <visual name="Body_Leg-Center-1_visual">
+            <origin xyz="0.04444999584089214 0.04814699602502378 0.22423999767082378" rpy="-3.141592653589793 1.3877740227854919e-15 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Leg-Center-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Leg-Center-1_collision">
+            <origin xyz="0.04444999584089214 0.04814699602502378 0.22423999767082378" rpy="-3.141592653589793 1.3877740227854919e-15 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Leg-Center-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Bearing-2">
+        <inertial>
+            <origin xyz="-4.159108542012291e-09 -3.974976445775269e-09 -0.004950002329178318" rpy="0.0 -0.0 0.0" />
+            <mass value="0.19905131053144925" />
+            <inertia ixx="0.00016335494138557073" iyy="0.00016335494138556422" izz="0.0003234583796136066" ixy="-4.336808689942018e-19" iyz="3.986932345989158e-36" ixz="-8.673617379884035e-19" />
+        </inertial>
+        <visual name="Body_Bearing-2_visual">
+            <origin xyz="-4.159108470958017e-09 -3.9749764191299165e-09 -2.3291782902390424e-09" rpy="-1.5707963267948974 1.3430235781161288e-15 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Bearing-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Bearing-2_collision">
+            <origin xyz="-4.159108470958017e-09 -3.9749764191299165e-09 -2.3291782902390424e-09" rpy="-1.5707963267948974 1.3430235781161288e-15 -3.141592653589793" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Bearing-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Leg-Motor-2">
+        <inertial>
+            <origin xyz="-2.470761391037968e-07 -0.0764827403415031 -0.008029112831123442" rpy="0.0 -0.0 -6.908934844075556e-77" />
+            <mass value="0.8044250044347343" />
+            <inertia ixx="0.0016108641472565577" iyy="0.00828722725248987" izz="0.009863815955693508" ixy="-1.2261928573203962e-09" iyz="-8.898906406901164e-08" ixz="7.707203070195234e-10" />
+        </inertial>
+        <visual name="SD_Body_Leg-Motor-2_visual">
+            <origin xyz="4.1591083999037435e-09 -0.06350000397497653 2.3291751460874367e-09" rpy="-6.058901249425612e-15 2.997602166487886e-15 -3.997835962611807e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Leg-Motor-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Leg-Motor-2_collision">
+            <origin xyz="4.1591083999037435e-09 -0.06350000397497653 2.3291751460874367e-09" rpy="-6.058901249425612e-15 2.997602166487886e-15 -3.997835962611807e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Leg-Motor-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Bearing-3">
+        <inertial>
+            <origin xyz="-4.159109749934942e-09 -3.974976241494232e-09 0.004949997670825965" rpy="0.0 -0.0 0.0" />
+            <mass value="0.19905131053144925" />
+            <inertia ixx="0.00016335494138558504" iyy="0.00016335494138555728" izz="0.00032345837961360313" ixy="4.336808689942018e-19" iyz="-2.0135051083396076e-36" ixz="6.938893903907228e-18" />
+        </inertial>
+        <visual name="Body_Bearing-3_visual">
+            <origin xyz="-4.159109749934942e-09 -3.97497621484888e-09 -2.3291740092190596e-09" rpy="1.5707963267948972 8.083045826382236e-16 4.3107878378023696e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Bearing-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Bearing-3_collision">
+            <origin xyz="-4.159109749934942e-09 -3.97497621484888e-09 -2.3291740092190596e-09" rpy="1.5707963267948972 8.083045826382236e-16 4.3107878378023696e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Bearing-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Body_Leg-Bearing-2">
+        <inertial>
+            <origin xyz="0.04444999584100849 0.06274265177408052 -0.007920737069663062" rpy="0.0 -0.0 0.0" />
+            <mass value="0.6178640190776015" />
+            <inertia ixx="0.0015162457390940354" iyy="0.006260451717023441" izz="0.007750218729260232" ixy="1.5586490431651612e-15" iyz="-2.1118811520393077e-07" ixz="-2.7755575615628914e-17" />
+        </inertial>
+        <visual name="SD_Body_Leg-Bearing-2_visual">
+            <origin xyz="0.04444999584089114 0.0481471271818304 -0.01600000232917431" rpy="1.307405364490683e-16 -1.7454252144341462e-15 4.2847669856627204e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Leg-Bearing-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Body_Leg-Bearing-2_collision">
+            <origin xyz="0.04444999584089114 0.0481471271818304 -0.01600000232917431" rpy="1.307405364490683e-16 -1.7454252144341462e-15 4.2847669856627204e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Body_Leg-Bearing-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Bearing-4">
+        <inertial>
+            <origin xyz="-4.159108630830133e-09 -3.974976232612448e-09 0.004949997670825823" rpy="0.0 -0.0 0.0" />
+            <mass value="0.19905131053144925" />
+            <inertia ixx="0.00016335494138557116" iyy="0.00016335494138557116" izz="0.00032345837961360747" ixy="2.168404344971009e-19" iyz="-2.0135051083397967e-36" ixz="-2.6727647100921956e-51" />
+        </inertial>
+        <visual name="Body_Bearing-4_visual">
+            <origin xyz="-4.159108648593701e-09 -3.9749762059670955e-09 -2.3291742934361538e-09" rpy="1.5707963267948968 -1.925944876152982e-15 4.276093368282835e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Bearing-4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Bearing-4_collision">
+            <origin xyz="-4.159108648593701e-09 -3.9749762059670955e-09 -2.3291742934361538e-09" rpy="1.5707963267948968 -1.925944876152982e-15 4.276093368282835e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Bearing-4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Leg-Center-2">
+        <inertial>
+            <origin xyz="0.044450104675344417 0.008119611476699458 -0.11995005086201516" rpy="0.0 -0.0 0.0" />
+            <mass value="0.6151717763496739" />
+            <inertia ixx="0.0037081964982785542" iyy="0.003899273526156599" izz="0.001100931669123499" ixy="-2.001688188466022e-09" iyz="7.83056493119938e-08" ixz="-1.4065304476673646e-11" />
+        </inertial>
+        <visual name="Body_Leg-Center-2_visual">
+            <origin xyz="0.04444999584089139 0.048146996025023744 -0.2242400023291752" rpy="-1.0984477251749472e-18 -1.3878553379484283e-15 4.2847669856627214e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Leg-Center-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Leg-Center-2_collision">
+            <origin xyz="0.04444999584089139 0.048146996025023744 -0.2242400023291752" rpy="-1.0984477251749472e-18 -1.3878553379484283e-15 4.2847669856627214e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Leg-Center-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Body_Electrical-Leg-Tray-2">
+        <inertial>
+            <origin xyz="0.033192503810466574 -0.09000000232917359 -0.002495221581300502" rpy="0.0 -0.0 0.0" />
+            <mass value="0.07313690215541274" />
+            <inertia ixx="0.00023833998813043572" iyy="3.350385881856904e-05" izz="0.0002715390666326416" ixy="4.7004274696735183e-35" iyz="-2.168404344971009e-19" ixz="5.69169957078469e-20" />
+        </inertial>
+        <visual name="Body_Electrical-Leg-Tray-2_visual">
+            <origin xyz="0.0331925038104572 -0.09000000232917359 3.974976063858548e-09" rpy="-1.5707963267948974 -1.493596912816028e-15 -3.141592653589792" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Electrical-Leg-Tray-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Body_Electrical-Leg-Tray-2_collision">
+            <origin xyz="0.0331925038104572 -0.09000000232917359 3.974976063858548e-09" rpy="-1.5707963267948974 -1.493596912816028e-15 -3.141592653589792" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Body_Electrical-Leg-Tray-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Hip_motor_mount-2-1">
+        <inertial>
+            <origin xyz="-6.0256601354069516e-06 0.018235252060673047 -0.05666898097096677" rpy="-1.5557538194652858e-61 -0.0 0.0" />
+            <mass value="0.079596982187537" />
+            <inertia ixx="0.00021002130027421664" iyy="0.00013427265418389922" izz="7.874043478514958e-05" ixy="-1.2518353693057036e-10" iyz="2.2152345797229063e-07" ixz="8.349751140068055e-09" />
+        </inertial>
+        <visual name="SD_Hip_motor_mount-2-1_visual">
+            <origin xyz="-0.007500002329183673 0.018305333974975788 -0.07612722415910675" rpy="-1.5707963267938696 1.566787469905879 1.5707963267952745" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Hip_motor_mount-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Hip_motor_mount-2-1_collision">
+            <origin xyz="-0.007500002329183673 0.018305333974975788 -0.07612722415910675" rpy="-1.5707963267938696 1.566787469905879 1.5707963267952745" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Hip_motor_mount-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_ideler-2-1">
+        <inertial>
+            <origin xyz="0.012542739844784467 -0.005396040817010857 -5.027836009256603e-05" rpy="0.0 -0.0 0.0" />
+            <mass value="0.13444706155286565" />
+            <inertia ixx="9.409606929856179e-05" iyy="0.00024669573755457157" izz="0.00016494904898237128" ixy="4.5751948287674205e-06" iyz="-1.8341399563200078e-08" ixz="2.8404554224144545e-07" />
+        </inertial>
+        <visual name="SD_ideler-2-1_visual">
+            <origin xyz="-4.15910843543088e-09 -0.0006000023291747426 3.974976277021369e-09" rpy="1.5707963267948968 -0.004008856889018369 -3.141592653589792" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_ideler-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_ideler-2-1_collision">
+            <origin xyz="-4.15910843543088e-09 -0.0006000023291747426 3.974976277021369e-09" rpy="1.5707963267948968 -0.004008856889018369 -3.141592653589792" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_ideler-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Hip_Main-Short-2-1">
+        <inertial>
+            <origin xyz="-0.09791941687924506 0.017951341686356342 0.012138136984686371" rpy="3.503246160812044e-46 -0.0 0.0" />
+            <mass value="0.24696197862276034" />
+            <inertia ixx="0.00021227569694884678" iyy="0.0008150033415433159" izz="0.0010024215036671387" ixy="3.398346981164229e-08" iyz="-7.513538904563875e-07" ixz="1.6501016714704634e-06" />
+        </inertial>
+        <visual name="Hip_Main-Short-2-1_visual">
+            <origin xyz="-0.05750000232917515 0.01795042401015883 0.012403764448312194" rpy="1.570796326793847 -1.5667874699058788 -1.5707963267945186" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Hip_Main-Short-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Hip_Main-Short-2-1_collision">
+            <origin xyz="-0.05750000232917515 0.01795042401015883 0.012403764448312194" rpy="1.570796326793847 -1.5667874699058788 -1.5707963267945186" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Hip_Main-Short-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Thigh-2-1">
+        <inertial>
+            <origin xyz="0.013390562964504573 -0.0031830506409171733 0.07736643263784289" rpy="0.0 -0.0 0.0" />
+            <mass value="0.5098055795551252" />
+            <inertia ixx="0.0030498598830683288" iyy="0.002715652548138869" izz="0.0004497271895150535" ixy="8.488185117997148e-07" iyz="9.33225697978496e-05" ixz="-2.1969901453636237e-05" />
+        </inertial>
+        <visual name="Leg_Thigh-2-1_visual">
+            <origin xyz="0.0190498502288583 -2.3291750039788894e-09 -7.636366633581027e-05" rpy="-1.5748085704748447 0.04109083166176363 -1.5709611477164267" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Thigh-2-1_collision">
+            <origin xyz="0.0190498502288583 -2.3291750039788894e-09 -7.636366633581027e-05" rpy="-1.5748085704748447 0.04109083166176363 -1.5709611477164267" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Thigh-Plate-2-1">
+        <inertial>
+            <origin xyz="0.009715351979149092 0.06178435068237352 0.04638285384731319" rpy="0.0 -0.0 -3.66307201611596e-39" />
+            <mass value="0.33127075701520237" />
+            <inertia ixx="0.0019352331100484094" iyy="0.00025149979288646707" izz="0.0017032662210760613" ixy="-8.677518529153544e-06" iyz="-5.9851995079532316e-05" ixz="-3.1917932945616004e-07" />
+        </inertial>
+        <visual name="Leg_Thigh-Plate-2-1_visual">
+            <origin xyz="-0.00015386206141498882 -0.03838055602896393 0.04226302219527433" rpy="-1.5707963267948777 1.529705164760947 1.566787469905979" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-Plate-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Thigh-Plate-2-1_collision">
+            <origin xyz="-0.00015386206141498882 -0.03838055602896393 0.04226302219527433" rpy="-1.5707963267948777 1.529705164760947 1.566787469905979" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-Plate-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-Top-V3.2-2-1">
+        <inertial>
+            <origin xyz="-0.007839936863642425 3.1838562900290415e-05 -0.0007462954805580058" rpy="0.0 -0.0 0.0" />
+            <mass value="0.055618101200440404" />
+            <inertia ixx="2.6398243893218515e-05" iyy="1.5716273999060078e-05" izz="1.3134043045939792e-05" ixy="-3.797949091419864e-07" iyz="1.077213415147921e-07" ixz="-1.0836020272409313e-07" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-Top-V3.2-2-1_visual">
+            <origin xyz="-0.008999926869010253 -2.195274149130455e-09 3.608179407428303e-05" rpy="1.5667840831149469 0.04109083166176288 -1.5709611477164218" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-V3.2-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-Top-V3.2-2-1_collision">
+            <origin xyz="-0.008999926869010253 -2.195274149130455e-09 3.608179407428303e-05" rpy="1.5667840831149469 0.04109083166176288 -1.5709611477164218" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-V3.2-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-V3.2-2-1">
+        <inertial>
+            <origin xyz="0.010326387424043208 0.0012442954010128916 0.0001471096948200312" rpy="-9.62964972193618e-35 -1.2037062152420227e-35 7.770379513553895e-38" />
+            <mass value="0.06922260787257782" />
+            <inertia ixx="3.299552809597413e-05" iyy="1.834735390957367e-05" izz="1.944484832971851e-05" ixy="1.784596838539529e-07" iyz="-1.2844120504326706e-07" ixz="3.4681644604437045e-07" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-V3.2-2-1_visual">
+            <origin xyz="0.007499942293892998 -3.0063658478276523e-05 -3.0758646119011247e-09" rpy="1.5707963267950542 1.456863549929725 1.566787469905634" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-V3.2-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-V3.2-2-1_collision">
+            <origin xyz="0.007499942293892998 -3.0063658478276523e-05 -3.0758646119011247e-09" rpy="1.5707963267950542 1.456863549929725 1.566787469905634" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-V3.2-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_shank-main-V2-2-1">
+        <inertial>
+            <origin xyz="0.01346995827235223 0.0006492559307257295 -0.08756945015948209" rpy="0.0 -2.858387263497911e-36 0.0" />
+            <mass value="0.193552591752683" />
+            <inertia ixx="0.0005633235893519328" iyy="0.0005448504275697603" izz="4.58735980989958e-05" ixy="-3.5334797998577636e-07" iyz="2.6332167157930306e-06" ixz="2.6690838632194732e-05" />
+        </inertial>
+        <visual name="SD_shank-main-V2-2-1_visual">
+            <origin xyz="0.014499884347077073 -3.0758649671724925e-09 5.8130389250194984e-05" rpy="1.5667613098762871 -0.11393185738144782 1.5712550523127389" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_shank-main-V2-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_shank-main-V2-2-1_collision">
+            <origin xyz="0.014499884347077073 -3.0758649671724925e-09 5.8130389250194984e-05" rpy="1.5667613098762871 -0.11393185738144782 1.5712550523127389" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_shank-main-V2-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_foot-1-2-1">
+        <inertial>
+            <origin xyz="0.006958692334442112 -0.05361049088914598 -0.003569331988890028" rpy="-9.62964972193618e-35 1.2037062152420227e-35 -7.770379513553895e-38" />
+            <mass value="0.08708090498237109" />
+            <inertia ixx="7.537848850262816e-05" iyy="1.6736669944540643e-05" izz="7.637284445405346e-05" ixy="2.3503820445773315e-07" iyz="-4.098356584936179e-06" ixz="1.6411087567992754e-08" />
+        </inertial>
+        <visual name="SD_foot-1-2-1_visual">
+            <origin xyz="-0.008103036375754831 -0.038246734609840446 -0.0011770430998898007" rpy="1.5707963267947407 1.4568635499297256 1.5748051836841592" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_foot-1-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_foot-1-2-1_collision">
+            <origin xyz="-0.008103036375754831 -0.038246734609840446 -0.0011770430998898007" rpy="1.5707963267947407 1.4568635499297256 1.5748051836841592" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_foot-1-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_TPU_Foot-2-1">
+        <inertial>
+            <origin xyz="9.046667813033648e-05 -0.0025823435840928964 0.02256717679421321" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0892063188904472" />
+            <inertia ixx="3.7914668068676785e-05" iyy="3.8030209799762293e-05" izz="4.674935557265336e-05" ixy="-4.0528271495103946e-09" iyz="-1.0109628630350365e-06" ixz="3.5417756798511685e-08" />
+        </inertial>
+        <visual name="SD_TPU_Foot-2-1_visual">
+            <origin xyz="7.587102004185775e-05 -0.002165725773620082 0.01892634343391194" rpy="-1.5748313437135035 0.11393185738143874 -1.5712550523127384" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_TPU_Foot-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_TPU_Foot-2-1_collision">
+            <origin xyz="7.587102004185775e-05 -0.002165725773620082 0.01892634343391194" rpy="-1.5748313437135035 0.11393185738143874 -1.5712550523127384" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_TPU_Foot-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_shank-main-V2-1-1">
+        <inertial>
+            <origin xyz="0.01414636046638914 -0.009104681363611027 -0.08698997613776768" rpy="0.0 -1.88079096131566e-37 0.0" />
+            <mass value="0.193552591752683" />
+            <inertia ixx="0.0005628796956377372" iyy="0.0005392525607561675" izz="5.191535862685847e-05" ixy="3.0192833924945486e-06" iyz="-5.259846299094683e-05" ixz="3.0538922563832706e-05" />
+        </inertial>
+        <visual name="SD_shank-main-V2-1-1_visual">
+            <origin xyz="0.014498992564422126 -3.4101701373856488e-09 0.0001711140789635124" rpy="1.558994929440092 -0.0024303122700787268 1.5708250091790223" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_shank-main-V2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_shank-main-V2-1-1_collision">
+            <origin xyz="0.014498992564422126 -3.4101701373856488e-09 0.0001711140789635124" rpy="1.558994929440092 -0.0024303122700787268 1.5708250091790223" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_shank-main-V2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Thigh-1-1">
+        <inertial>
+            <origin xyz="0.013992237997759591 -0.004519737379233933 0.07719321811902204" rpy="0.0 -0.0 0.0" />
+            <mass value="0.5098055795551252" />
+            <inertia ixx="0.003049360387908203" iyy="0.0027117532823428157" izz="0.00045412595047147534" ixy="2.2364830724348634e-06" iyz="0.00013238509939715636" ixz="-4.217203111006634e-05" />
+        </inertial>
+        <visual name="Leg_Thigh-1-1_visual">
+            <origin xyz="0.01904867118597253 -2.3291741002573473e-09 -0.00022480631195988645" rpy="-1.5826178155800483 0.05835959253450782 -1.5714858645281464" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Thigh-1-1_collision">
+            <origin xyz="0.01904867118597253 -2.3291741002573473e-09 -0.00022480631195988645" rpy="-1.5826178155800483 0.05835959253450782 -1.5714858645281464" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Thigh-Plate-1-1">
+        <inertial>
+            <origin xyz="0.010186939829473381 0.0608964929375591 0.0474437069718272" rpy="0.0 -0.0 0.0" />
+            <mass value="0.33127075701520237" />
+            <inertia ixx="0.0019349960240786883" iyy="0.00025423717081279765" izz="0.001700765929119984" ixy="-2.176527512631407e-05" iyz="-8.488122700756853e-05" ixz="-1.1142864764808053e-06" />
+        </inertial>
+        <visual name="Leg_Thigh-Plate-1-1_visual">
+            <origin xyz="-0.00046148615429697504 -0.03910237027170345 0.041593808166355384" rpy="-1.5707963267948903 1.5124326654706317 1.5589949642936993" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-Plate-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Thigh-Plate-1-1_collision">
+            <origin xyz="-0.00046148615429697504 -0.03910237027170345 0.041593808166355384" rpy="-1.5707963267948903 1.5124326654706317 1.5589949642936993" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-Plate-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-Top-V3.2-1-1">
+        <inertial>
+            <origin xyz="-0.007845505209009451 4.527035571841864e-05 -0.0006845160643064397" rpy="9.86076131526265e-32 -0.0 0.0" />
+            <mass value="0.055618101200440404" />
+            <inertia ixx="2.6395595564554298e-05" iyy="1.5711835621339958e-05" izz="1.3141129752316088e-05" ixy="-3.774085917825457e-07" iyz="1.5520325061090433e-07" ixz="-2.1820887300895357e-07" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-Top-V3.2-1-1_visual">
+            <origin xyz="-0.00899937123678682 1.8336445295474846e-09 0.00010621068821050628" rpy="1.558974838009744 0.05835959253450916 -1.571485864528145" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-V3.2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-Top-V3.2-1-1_collision">
+            <origin xyz="-0.00899937123678682 1.8336445295474846e-09 0.00010621068821050628" rpy="1.558974838009744 0.05835959253450916 -1.571485864528145" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-V3.2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-V3.2-1-1">
+        <inertial>
+            <origin xyz="0.010335866733792916 0.0011721746514470155 3.136439460011964e-06" rpy="0.0 -3.761581922631321e-37 0.0" />
+            <mass value="0.06922260787257782" />
+            <inertia ixx="3.299829513785621e-05" iyy="1.833005622523641e-05" izz="1.9459378972157778e-05" ixy="1.0128971693188671e-07" iyz="-6.488396895828515e-09" ixz="3.1872641796887384e-07" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-V3.2-1-1_visual">
+            <origin xyz="0.007499478111516771 -8.850571181813649e-05 -3.4101702173217064e-09" rpy="1.570796326795058 1.5683658452772473 1.558994964294107" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-V3.2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-V3.2-1-1_collision">
+            <origin xyz="0.007499478111516771 -8.850571181813649e-05 -3.4101702173217064e-09" rpy="1.570796326795058 1.5683658452772473 1.558994964294107" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-V3.2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Hip_motor_mount-1-1">
+        <inertial>
+            <origin xyz="6.021001784528579e-06 0.018660440853004338 -0.056525354876813656" rpy="1.9259299443872363e-34 -0.0 0.0" />
+            <mass value="0.079596982187537" />
+            <inertia ixx="0.00021002130027422835" iyy="0.00013426577783994816" izz="7.874731112910563e-05" ixy="6.838006181252035e-12" iyz="6.56417549594484e-07" ixz="-8.350686695086927e-09" />
+        </inertial>
+        <visual name="SD_Hip_motor_mount-1-1_visual">
+            <origin xyz="0.007499997670832918 0.01889799397497624 -0.0759822741591091" rpy="1.5707963267950245 1.5589949642936707 1.5707963267950067" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Hip_motor_mount-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Hip_motor_mount-1-1_collision">
+            <origin xyz="0.007499997670832918 0.01889799397497624 -0.0759822741591091" rpy="1.5707963267950245 1.5589949642936707 1.5707963267950067" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Hip_motor_mount-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_TPU_Foot-1-2">
+        <inertial>
+            <origin xyz="0.00018687986815137946 -0.0055016331694380935 0.02203748937074806" rpy="0.0 2.4882749365730104e-37 0.0" />
+            <mass value="0.0892063188904472" />
+            <inertia ixx="3.791513196717278e-05" iyy="3.8439608799012426e-05" izz="4.633949267491419e-05" ixy="-1.78364571237765e-08" iyz="-2.1032841792181793e-06" ixz="7.144614925369779e-08" />
+        </inertial>
+        <visual name="SD_TPU_Foot-1-2_visual">
+            <origin xyz="0.00015672923416275354 -0.004614036677233102 0.01848211113531157" rpy="-1.5620560077859806 -0.24463082311297502 1.5686793869035558" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_TPU_Foot-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_TPU_Foot-1-2_collision">
+            <origin xyz="0.00015672923416275354 -0.004614036677233102 0.01848211113531157" rpy="-1.5620560077859806 -0.24463082311297502 1.5686793869035558" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_TPU_Foot-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_foot-1-1-2">
+        <inertial>
+            <origin xyz="-0.006306933452087406 -0.051534458469916444 -0.015481276844568584" rpy="1.2037062152420224e-35 -0.0 -6.162908495491286e-33" />
+            <mass value="0.08708090498237109" />
+            <inertia ixx="7.537554695543483e-05" iyy="2.1390758670317138e-05" izz="7.17216972754633e-05" ixy="4.5789618473984915e-07" iyz="-1.650833223519956e-05" ixz="1.3999666108321966e-07" />
+        </inertial>
+        <visual name="SD_foot-1-1-2_visual">
+            <origin xyz="0.00856294800489799 -0.0361252371714243 -0.012308541540894495" rpy="1.5707963267949232 -1.326156527709208 -1.5623162413415164" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_foot-1-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_foot-1-1-2_collision">
+            <origin xyz="0.00856294800489799 -0.0361252371714243 -0.012308541540894495" rpy="1.5707963267949232 -1.326156527709208 -1.5623162413415164" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_foot-1-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_shank-main-V2-1-2">
+        <inertial>
+            <origin xyz="-0.012420610179667193 0.030142179926978516 -0.0823859622588057" rpy="-2.407412430484045e-35 9.62964972193618e-35 4.176194859519056e-53" />
+            <mass value="0.193552591752683" />
+            <inertia ixx="0.0005638892815676144" iyy="0.00048510394505073295" izz="0.0001050543884023592" ixy="6.943048566805667e-06" iyz="0.00016211932081161567" ixz="-1.928233322103651e-05" />
+        </inertial>
+        <visual name="SD_shank-main-V2-1-2_visual">
+            <origin xyz="-0.014499477182248768 -2.473087192811363e-09 -0.00012295532404554165" rpy="1.5795366458038107 0.2446308231129575 -1.5686793869035531" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_shank-main-V2-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_shank-main-V2-1-2_collision">
+            <origin xyz="-0.014499477182248768 -2.473087192811363e-09 -0.00012295532404554165" rpy="1.5795366458038107 0.2446308231129575 -1.5686793869035531" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_shank-main-V2-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Thigh-1-2">
+        <inertial>
+            <origin xyz="-0.012426177030569079 0.00788664984196494 0.07719063786704983" rpy="0.0 8.512697553966391e-47 0.0" />
+            <mass value="0.5098055795551252" />
+            <inertia ixx="0.0030500036221033644" iyy="0.002695934127511679" izz="0.00046930187110738554" ixy="-7.76197806806591e-07" iyz="-0.0002302274541359903" ixz="-1.0389527255090154e-05" />
+        </inertial>
+        <visual name="Leg_Thigh-1-2_visual">
+            <origin xyz="-0.01904931865420778 -2.3291740092190596e-09 0.00016154764218441643" rpy="-1.5622719732212058 0.10195598214824408 1.5716639514814048" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Thigh-1-2_collision">
+            <origin xyz="-0.01904931865420778 -2.3291740092190596e-09 0.00016154764218441643" rpy="-1.5622719732212058 0.10195598214824408 1.5716639514814048" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Thigh-Plate-1-2">
+        <inertial>
+            <origin xyz="-0.008967885348137373 0.05896496390800033 -0.05005768903743274" rpy="0.0 -0.0 0.0" />
+            <mass value="0.33127075701520237" />
+            <inertia ixx="0.0019351879958417056" iyy="0.0002641854977854241" izz="0.0016906256303842052" ixy="-1.2252250445030088e-05" iyz="0.0001475575160601768" ixz="1.0549811693683073e-06" />
+        </inertial>
+        <visual name="Leg_Thigh-Plate-1-2_visual">
+            <origin xyz="-0.0003466633770335648 -0.04087921804357501 -0.0398500057911906" rpy="1.5707963267949274 -1.4688366658586336 1.562316241341399" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-Plate-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Thigh-Plate-1-2_collision">
+            <origin xyz="-0.0003466633770335648 -0.04087921804357501 -0.0398500057911906" rpy="1.5707963267949274 -1.4688366658586336 1.562316241341399" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Thigh-Plate-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-Top-V3.2-1-2">
+        <inertial>
+            <origin xyz="0.007832737091869576 0.0006310513814698737 -0.0005221034303356298" rpy="9.860761315262648e-32 -1.012459141074239e-34 0.0" />
+            <mass value="0.055618101200440404" />
+            <inertia ixx="2.6393206163526778e-05" iyy="1.4017442910073043e-05" izz="1.4837911864618716e-05" ixy="-2.453729521633546e-07" iyz="1.2322221947143318e-06" ixz="-3.8470190049882486e-07" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-Top-V3.2-1-2_visual">
+            <origin xyz="0.008999676433018352 -4.208808306316314e-09 -7.631619144992108e-05" rpy="1.585277916985146 -0.9451881148448458 1.5590571654736032" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-V3.2-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-Top-V3.2-1-2_collision">
+            <origin xyz="0.008999676433018352 -4.208808306316314e-09 -7.631619144992108e-05" rpy="1.585277916985146 -0.9451881148448458 1.5590571654736032" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-V3.2-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-V3.2-1-2">
+        <inertial>
+            <origin xyz="-0.010310298588804088 0.0013430110332562607 0.0003134350859214408" rpy="1.2037062152420224e-35 -0.0 6.162908495491286e-33" />
+            <mass value="0.06922260787257782" />
+            <inertia ixx="3.2986978740812814e-05" iyy="1.84073609771837e-05" izz="1.939339061726718e-05" ixy="-4.676795831506933e-07" iyz="-2.6639581523525675e-07" ixz="2.3975363251313426e-07" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-V3.2-1-2_visual">
+            <origin xyz="-0.007499733248686624 6.359529977100209e-05 -2.4730859138344387e-09" rpy="1.5707963267948701 -1.3261565277092084 -1.5792764122482754" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-V3.2-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-V3.2-1-2_collision">
+            <origin xyz="-0.007499733248686624 6.359529977100209e-05 -2.4730859138344387e-09" rpy="1.5707963267948701 -1.3261565277092084 -1.5792764122482754" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-V3.2-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_Hip_motor_mount-1-2">
+        <inertial>
+            <origin xyz="-6.025660130788424e-06 0.01751025715161119 0.05689216050711948" rpy="0.0 -0.0 0.0" />
+            <mass value="0.079596982187537" />
+            <inertia ixx="0.00021002130027420948" iyy="0.0001342695630599383" izz="7.874352590911057e-05" ixy="1.6251580680151645e-10" iyz="4.6980853703540437e-07" ixz="-8.34910795707855e-09" />
+        </inertial>
+        <visual name="SD_Hip_motor_mount-1-2_visual">
+            <origin xyz="-0.007500002329178841 0.017353173974975888 0.07634989584089169" rpy="1.5707963267942553 -1.5623162413414855 -1.5707963267946219" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Hip_motor_mount-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_Hip_motor_mount-1-2_collision">
+            <origin xyz="-0.007500002329178841 0.017353173974975888 0.07634989584089169" rpy="1.5707963267942553 -1.5623162413414855 -1.5707963267946219" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_Hip_motor_mount-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Hip_Main-Short-1-2">
+        <inertial>
+            <origin xyz="-0.09791941687924158 0.018101816014127962 -0.011913000233741897" rpy="0.0 -0.0 0.0" />
+            <mass value="0.24696197862276034" />
+            <inertia ixx="0.00021227569694882986" iyy="0.0008150138072210295" izz="0.0010024110379893564" ixy="-2.6605172972690716e-08" iyz="-1.5893021200578935e-06" ixz="-1.6502371245341596e-06" />
+        </inertial>
+        <visual name="Hip_Main-Short-1-2_visual">
+            <origin xyz="-0.05750000232917252 0.018103921358297973 -0.012178620939049268" rpy="-1.570796326794538 1.5623162413414855 1.570796326794947" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Hip_Main-Short-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Hip_Main-Short-1-2_collision">
+            <origin xyz="-0.05750000232917252 0.018103921358297973 -0.012178620939049268" rpy="-1.570796326794538 1.5623162413414855 1.570796326794947" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Hip_Main-Short-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="SD_ideler-1-2">
+        <inertial>
+            <origin xyz="-0.012542397963600465 -0.005396040817009933 0.00010636709583048188" rpy="0.0 -0.0 0.0" />
+            <mass value="0.13444706155286565" />
+            <inertia ixx="9.410002580495513e-05" iyy="0.00024669573755454685" izz="0.000164945092475971" ixy="-4.575067087144585e-06" iyz="3.8797889867839275e-08" ixz="6.008298294719709e-07" />
+        </inertial>
+        <visual name="SD_ideler-1-2_visual">
+            <origin xyz="-4.159109749934942e-09 -0.000600002329174032 3.974976277021369e-09" rpy="-1.5707963267948968 0.008480085453410524 4.2774545081547434e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_ideler-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="SD_ideler-1-2_collision">
+            <origin xyz="-4.159109749934942e-09 -0.000600002329174032 3.974976277021369e-09" rpy="-1.5707963267948968 0.008480085453410524 4.2774545081547434e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/SD_ideler-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1">
+        <inertial>
+            <origin xyz="-0.03280759137889738 0.0006106015421555 3.760461200686072e-05" rpy="0.0 -0.0 0.0" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.0003863830775788469" iyy="0.0004183825439094957" izz="0.00041449897803244595" ixy="9.6432058723471e-07" iyz="-2.363644646073139e-06" ixz="5.767571568168067e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1_visual">
+            <origin xyz="-0.016995160793925736 0.00021533800670287207 2.3661990494128203e-06" rpy="-3.141592653589791 0.02550698350865186 1.552660358329333" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1_collision">
+            <origin xyz="-0.016995160793925736 0.00021533800670287207 2.3661990494128203e-06" rpy="-3.141592653589791 0.02550698350865186 1.552660358329333" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-1">
+        <inertial>
+            <origin xyz="0.03281079406976961 -0.00040399247641875746 3.707625918146329e-05" rpy="-1.925929944387236e-34 -0.0 -6.687928901107685e-38" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.0003863725980847738" iyy="0.00041823430708234075" izz="0.0004146576943536639" ixy="7.79811066181681e-07" iyz="2.4830162803941977e-06" ixz="-5.77333115085515e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-1_visual">
+            <origin xyz="0.016996189886615134 -0.00010780271504461148 5.419219427715838e-06" rpy="3.1415926535897927 0.05836366132426825 -1.5825976892961116" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-1_collision">
+            <origin xyz="0.016996189886615134 -0.00010780271504461148 5.419219427715838e-06" rpy="3.1415926535897927 0.05836366132426825 -1.5825976892961116" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-2">
+        <inertial>
+            <origin xyz="-3.799496993296847e-05 0.000701761702275574 -0.03788678017716499" rpy="-3.8518598887744726e-34 -0.0 0.0" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.0004143815466296219" iyy="0.00041850051420617973" izz="0.00038638253868498193" ixy="2.2611360496222893e-06" iyz="9.505350394125115e-07" ixz="-5.881966651066598e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-2_visual">
+            <origin xyz="-2.329101538300904e-09 0.0003074320155044763 -0.022074332654085965" rpy="1.5707963267948957 -0.01813596846556375 1.5707963267948946" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-2_collision">
+            <origin xyz="-2.329101538300904e-09 0.0003074320155044763 -0.022074332654085965" rpy="1.5707963267948957 -0.01813596846556375 1.5707963267948946" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-3">
+        <inertial>
+            <origin xyz="-3.799496993177609e-05 -0.000461746621888377 0.037890460146120346" rpy="1.9259299443872363e-34 -0.0 0.0" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.0004143815466296284" iyy="0.00041851126762563497" izz="0.00038637178526551433" ixy="-2.2573647140227376e-06" iyz="7.470094791259775e-07" ixz="6.025081739066467e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-3_visual">
+            <origin xyz="-2.3291003037329005e-09 -0.00016758980126753366 0.022075831970381293" rpy="-1.5707963267948954 0.011801362501212333 -1.5707963267948961" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-3_collision">
+            <origin xyz="-2.3291003037329005e-09 -0.00016758980126753366 0.022075831970381293" rpy="-1.5707963267948954 0.011801362501212333 -1.5707963267948961" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-4">
+        <inertial>
+            <origin xyz="-6.85655398154239e-06 -4.0105398203973406e-05 0.03027327531277935" rpy="-1.727233711018889e-77 2.189528850507527e-47 0.0" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.0004194207272953963" iyy="0.0004134852408548931" izz="0.0003863586313704653" ixy="-7.391150057553875e-07" iyz="7.285884307496256e-07" ixz="4.8462704309651375e-09" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-4_visual">
+            <origin xyz="-7.99358077622081e-05 4.741895800870921e-05 0.014456277022253198" rpy="-1.5707963267948981 7.978764365320386e-16 -0.535400138099522" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-4_collision">
+            <origin xyz="-7.99358077622081e-05 4.741895800870921e-05 0.014456277022253198" rpy="-1.5707963267948981 7.978764365320386e-16 -0.535400138099522" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-4-1">
+        <inertial>
+            <origin xyz="-7.1104918730213745e-06 -4.006118653636648e-05 0.030273275312782833" rpy="4.3790577010150533e-47 2.189528850507527e-47 -4.379057701015054e-47" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.00041941112536979057" iyy="0.0004134948427804915" izz="0.0003863586313704523" ixy="-7.766536512555916e-07" iyz="7.28543113672278e-07" ixz="9.46146295165151e-09" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-4-1_visual">
+            <origin xyz="-7.9633850823555e-05 4.792433880794533e-05 0.014456277022256873" rpy="-1.5707963267948966 2.1986301575749315e-15 -0.5417347440638359" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-4-1_collision">
+            <origin xyz="-7.9633850823555e-05 4.792433880794533e-05 0.014456277022256873" rpy="-1.5707963267948966 2.1986301575749315e-15 -0.5417347440638359" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-4-2">
+        <inertial>
+            <origin xyz="-3.7994969931745003e-05 0.00033589955072248044 -0.03789178940919207" rpy="0.0 -0.0 0.0" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.00041438154662958027" iyy="0.00041851587511443356" izz="0.0003863671777766253" ixy="2.2553511707795737e-06" iyz="6.402496587325918e-07" ixz="-6.100021706367809e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-4-2_visual">
+            <origin xyz="-2.3291003969916346e-09 9.426901751848683e-05 -0.022076271483514844" rpy="1.5707963267948906 -0.0084800854534065 1.5707963267948961" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-4-2_collision">
+            <origin xyz="-2.3291003969916346e-09 9.426901751848683e-05 -0.022076271483514844" rpy="1.5707963267948906 -0.0084800854534065 1.5707963267948961" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-4-3">
+        <inertial>
+            <origin xyz="3.182599951038867e-05 2.5352705411387788e-05 -0.030273270654431743" rpy="0.0 -0.0 0.0" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.0004154906889079768" iyy="0.000417415279242217" izz="0.00038635863137042453" ixy="-2.9030636962299947e-06" iyz="3.556683341194439e-07" ixz="6.358967084979517e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-4-3_visual">
+            <origin xyz="-8.009284498378122e-05 4.7153221704814284e-05 -0.014456272363906208" rpy="1.5707963267948974 2.44522359124504e-15 -0.5320788610516987" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-4-3_collision">
+            <origin xyz="-8.009284498378122e-05 4.7153221704814284e-05 -0.014456272363906208" rpy="1.5707963267948974 2.44522359124504e-15 -0.5320788610516987" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-4-4">
+        <inertial>
+            <origin xyz="0.032812942637474814 -0.00014765739403483914 3.7364247816142895e-05" rpy="0.0 -0.0 0.0" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.0003863622967910929" iyy="0.00041832905472094506" izz="0.0004145732480087274" ixy="5.212456357474912e-07" iyz="2.4149869664487345e-06" ixz="-6.037993957701271e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-4-4_visual">
+            <origin xyz="0.016996508313697384 2.4726125892886587e-05 3.8200017737466395e-06" rpy="3.1415926535897887 0.04109116203394888 -1.574805183683914" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-4-4_collision">
+            <origin xyz="0.016996508313697384 2.4726125892886587e-05 3.8200017737466395e-06" rpy="3.1415926535897887 0.04109116203394888 -1.574805183683914" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-4.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-4-4-1">
+        <inertial>
+            <origin xyz="-0.032812285359256 0.0002559918620642776 3.406153483531682e-05" rpy="9.62964972193618e-35 -0.0 -2.481050685342014e-37" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.0003863559033370769" iyy="0.000417940836270392" izz="0.0004149678599131429" ixy="-2.6932438891910424e-08" iyz="2.667864723401859e-06" ixz="6.889679073085465e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-4-4-1_visual">
+            <origin xyz="-0.01699612843051213 8.971289846330776e-05 -7.533373180010016e-05" rpy="-3.141592653589791 -0.9452378902603497 1.5623162413414795" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-4-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-4-4-1_collision">
+            <origin xyz="-0.01699612843051213 8.971289846330776e-05 -7.533373180010016e-05" rpy="-3.141592653589791 -0.9452378902603497 1.5623162413414795" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-4-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-4-4-2">
+        <inertial>
+            <origin xyz="-3.799496993245555e-05 -0.00016647601420015866 0.037892914728687326" rpy="-1.5557538194652858e-61 -0.0 0.0" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.00041438154662960585" iyy="0.00041852095773459153" izz="0.00038636209515657816" ixy="-2.252601176418872e-06" iyz="4.964818012685895e-07" ixz="6.200802300810464e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-4-4-2_visual">
+            <origin xyz="-2.3291009654258233e-09 4.437543793107679e-06 0.02207647451201125" rpy="-1.570796326794893 0.00400885688901744 -1.5707963267948972" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-4-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-4-4-2_collision">
+            <origin xyz="-2.3291009654258233e-09 4.437543793107679e-06 0.02207647451201125" rpy="-1.570796326794893 0.00400885688901744 -1.5707963267948972" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-4-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Cycloidal_Simplified_for_FEA-v1-4-4-3">
+        <inertial>
+            <origin xyz="3.171234176038595e-05 2.5494771466156864e-05 -0.030273270654428402" rpy="-1.0947644252537633e-47 2.189528850507527e-47 1.2154326714572545e-63" />
+            <mass value="0.43019231942862235" />
+            <inertia ixx="0.00041551668756058247" iyy="0.00041738928058970826" izz="0.00038635863137044535" ixy="-2.911552790162141e-06" iyz="3.585080089359149e-07" ixz="6.343000830064115e-07" />
+        </inertial>
+        <visual name="Cycloidal_Simplified_for_FEA-v1-4-4-3_visual">
+            <origin xyz="-8.03028587733401e-05 4.679465677710937e-05 -0.014456272363902727" rpy="1.5707963267950265 -3.3655291315048953e-13 -0.5276076324873095" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-4-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Cycloidal_Simplified_for_FEA-v1-4-4-3_collision">
+            <origin xyz="-8.03028587733401e-05 4.679465677710937e-05 -0.014456272363902727" rpy="1.5707963267950265 -3.3655291315048953e-13 -0.5276076324873095" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Cycloidal_Simplified_for_FEA-v1-4-4-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cartilage-Outer-1-1">
+        <inertial>
+            <origin xyz="0.000599995682462873 3.0758381086570806e-09 -2.40681236153506e-06" rpy="-9.62964972193618e-35 -2.3603174674274857e-36 0.0" />
+            <mass value="0.003925813316644754" />
+            <inertia ixx="1.9031650307661098e-06" iyy="9.520612555485937e-07" izz="9.520765409921049e-07" ixy="-5.845187760243372e-20" iyz="-1.7997755865369995e-17" ixz="-3.812859346655883e-09" />
+        </inertial>
+        <visual name="Leg_Knee-Cartilage-Outer-1-1_visual">
+            <origin xyz="5.037364916860021e-10 3.0758646119011247e-09 -1.504667430651807e-09" rpy="-0.004035016918610676 0.11393185738144783 -1.5712550523127382" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cartilage-Outer-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cartilage-Outer-1-1_collision">
+            <origin xyz="5.037364916860021e-10 3.0758646119011247e-09 -1.504667430651807e-09" rpy="-0.004035016918610676 0.11393185738144783 -1.5712550523127382" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cartilage-Outer-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cartilage-Outer-1-2">
+        <inertial>
+            <origin xyz="0.000599954057002936 3.4101434875921653e-09 -7.077641562887038e-06" rpy="3.851859888774472e-34 -0.0 0.0" />
+            <mass value="0.003925813316644754" />
+            <inertia ixx="1.9030478578020158e-06" iyy="9.520612555465608e-07" izz="9.521937139585769e-07" ixy="-4.1822585536893525e-21" iyz="-3.8963266580937434e-19" ixz="-1.1223458668408266e-08" />
+        </inertial>
+        <visual name="Leg_Knee-Cartilage-Outer-1-2_visual">
+            <origin xyz="-4.161834912808083e-09 3.4101701862354616e-09 3.0115789328988284e-09" rpy="-0.011801397354804389 0.002430312270078674 -1.5708250091790226" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cartilage-Outer-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cartilage-Outer-1-2_collision">
+            <origin xyz="-4.161834912808083e-09 3.4101701862354616e-09 3.0115789328988284e-09" rpy="-0.011801397354804389 0.002430312270078674 -1.5708250091790226" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cartilage-Outer-1-2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cartilage-Outer-1-3">
+        <inertial>
+            <origin xyz="-0.0005999801134574768 2.4730612580015076e-09 5.08756839717961e-06" rpy="0.0 7.798540525479726e-37 0.0" />
+            <mass value="0.003925813316644754" />
+            <inertia ixx="1.9031119209648312e-06" iyy="9.520612555559934e-07" izz="9.521296507868785e-07" ixy="-2.1688005403366477e-19" iyz="-3.7188133166053243e-17" ixz="-8.065184240347178e-09" />
+        </inertial>
+        <visual name="Leg_Knee-Cartilage-Outer-1-3_visual">
+            <origin xyz="-0.001199958540031929 2.473087192811363e-09 1.0175558694029974e-05" rpy="-0.008740319008907363 0.2446308231129576 -1.5729132666862373" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cartilage-Outer-1-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cartilage-Outer-1-3_collision">
+            <origin xyz="-0.001199958540031929 2.473087192811363e-09 1.0175558694029974e-05" rpy="-0.008740319008907363 0.2446308231129576 -1.5729132666862373" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cartilage-Outer-1-3.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Shank-Bushing-2-1">
+        <inertial>
+            <origin xyz="-0.0007123092655283614 -6.04222414736455e-06 2.4729344971774482e-09" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0013221100116788842" />
+            <inertia ixx="3.802422891697587e-07" iyy="1.9298425255856629e-07" izz="1.9297078452133406e-07" ixy="1.5881164277251666e-09" iyz="-3.6266562423852445e-17" ixz="4.336809354517486e-19" />
+        </inertial>
+        <visual name="Leg_Shank-Bushing-2-1_visual">
+            <origin xyz="2.806129089094611e-09 -1.6120968027166783e-09 2.473086482268627e-09" rpy="-3.0647406578509896e-14 -1.4688366658586338 1.5792764122483804" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Shank-Bushing-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Shank-Bushing-2-1_collision">
+            <origin xyz="2.806129089094611e-09 -1.6120968027166783e-09 2.473086482268627e-09" rpy="-3.0647406578509896e-14 -1.4688366658586338 1.5792764122483804" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Shank-Bushing-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Shank-Bushing-2-1-1">
+        <inertial>
+            <origin xyz="0.000712329338500169 2.8585799392644164e-06 3.075711703104389e-09" rpy="0.0 -0.0 3.66307201611596e-39" />
+            <mass value="0.0013221100116788842" />
+            <inertia ixx="3.80252747027212e-07" iyy="1.9297379470409456e-07" izz="1.9297078451825753e-07" ixy="7.507906062145014e-10" iyz="1.4718044344487303e-17" ixz="-1.3933690903769783e-19" />
+        </inertial>
+        <visual name="Leg_Shank-Bushing-2-1-1_visual">
+            <origin xyz="-2.6218059000562843e-09 2.9277486746082104e-09 3.075864256629757e-09" rpy="4.3439302361287093e-13 -1.5297051647609474 -1.5667874699059503" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Shank-Bushing-2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Shank-Bushing-2-1-1_collision">
+            <origin xyz="-2.6218059000562843e-09 2.9277486746082104e-09 3.075864256629757e-09" rpy="4.3439302361287093e-13 -1.5297051647609474 -1.5667874699059503" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Shank-Bushing-2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-Top-Plate-V3.2-2-1">
+        <inertial>
+            <origin xyz="0.0019490517721851574 -1.6524559698201102e-05 4.208715651543571e-09" rpy="0.0 -0.0 -2.1217281024207685e-37" />
+            <mass value="0.01500275606707962" />
+            <inertia ixx="7.003746632892882e-06" iyy="3.52223520367137e-06" izz="3.5219848154646755e-06" ixy="-2.9526345539930746e-08" iyz="-1.4722923400350882e-15" ixz="-1.301042140880595e-17" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-Top-Plate-V3.2-2-1_visual">
+            <origin xyz="-0.006999743566981281 5.936380855069423e-05 4.208807879990673e-09" rpy="1.5707963267949014 1.2364236747325914 1.5623162413415126" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-Plate-V3.2-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-Top-Plate-V3.2-2-1_collision">
+            <origin xyz="-0.006999743566981281 5.936380855069423e-05 4.208807879990673e-09" rpy="1.5707963267949014 1.2364236747325914 1.5623162413415126" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-Plate-V3.2-2-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Leg_Knee-Cable-Top-Plate-V3.2-2-1-1">
+        <inertial>
+            <origin xyz="-0.001949102069791725 7.817427767013997e-06 2.1951755257987315e-09" rpy="9.62964972193618e-35 -0.0 3.262652233999263e-55" />
+            <mass value="0.01500275606707962" />
+            <inertia ixx="7.0039410659406675e-06" iyy="3.522040770122247e-06" izz="3.5219848159679672e-06" ixy="-1.3958739096053295e-08" iyz="-1.9493954991080187e-16" ixz="-8.673620929042266e-19" />
+        </inertial>
+        <visual name="Leg_Knee-Cable-Top-Plate-V3.2-2-1-1_visual">
+            <origin xyz="0.006999943130989751 -2.8058205926431158e-05 2.195273012262078e-09" rpy="-1.5707963267946539 1.529705164760948 1.5667874699060755" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-Plate-V3.2-2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Leg_Knee-Cable-Top-Plate-V3.2-2-1-1_collision">
+            <origin xyz="0.006999943130989751 -2.8058205926431158e-05 2.195273012262078e-09" rpy="-1.5707963267946539 1.529705164760948 1.5667874699060755" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Leg_Knee-Cable-Top-Plate-V3.2-2-1-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Master_TubeSuport-1">
+        <inertial>
+            <origin xyz="-4.15910843543088e-09 3.9749760283314114e-09 -0.37579999767082395" rpy="0.0 -0.0 0.0" />
+            <mass value="0.17673418494224236" />
+            <inertia ixx="0.008326591775300513" iyy="0.008326591775300114" izz="1.3584631703510326e-05" ixy="-4.770489558936221e-18" iyz="2.6020852139652106e-18" ixz="-5.204170427930421e-18" />
+        </inertial>
+        <visual name="Master_TubeSuport-1_visual">
+            <origin xyz="-4.159107795942418e-09 3.974976063858548e-09 2.3291777218048537e-09" rpy="3.141592653589793 1.3878282328941161e-15 -1.86316098809138e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Master_TubeSuport-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Master_TubeSuport-1_collision">
+            <origin xyz="-4.159107795942418e-09 3.974976063858548e-09 2.3291777218048537e-09" rpy="3.141592653589793 1.3878282328941161e-15 -1.86316098809138e-16" />
+            <geometry>
+                <mesh filename="package://openmutt_description/meshes/Master_TubeSuport-1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="Body_Leg-Center-2_Rigid-20" type="fixed">
+        <origin xyz="0.01125751000000001 0.073147 -0.03174" rpy="1.5707963267948966 -0.0 -1.9690862337613814e-36" />
+        <parent link="Body_Leg-Center-2" />
+        <child link="Body_Electrical-Leg-Tray-2" />
+    </joint>
+    <joint name="Body_Bearing-2_Revolute-25" type="continuous">
+        <origin xyz="0.0 0.0 0.0" rpy="1.5707963267948966 -1.2387727904155926e-33 -2.446434460742149e-31" />
+        <parent link="Body_Bearing-2" />
+        <child link="SD_ideler-2" />
+        <axis xyz="1.2387727904155926e-33 1.0 0.0" />
+    </joint>
+    <joint name="Body_Leg-Center-1_Rigid-27" type="fixed">
+        <origin xyz="0.01125751000000001 0.073147 0.20774" rpy="1.5707963267948966 -0.0 1.2747782405672312e-33" />
+        <parent link="Body_Leg-Center-1" />
+        <child link="Body_Electrical-Leg-Tray-1" />
+    </joint>
+    <joint name="SD_Body_Mid-Brace-2_Rigid-41" type="fixed">
+        <origin xyz="-0.125 -0.07492999999999998 0.03347110000000001" rpy="-3.141592653589793 -2.415095287974761e-62 -3.8893845486632136e-62" />
+        <parent link="SD_Body_Mid-Brace-2" />
+        <child link="Body_Mid-EletricalPlate-1" />
+    </joint>
+    <joint name="Body_Mid-EletricalPlate-1_Rigid-44" type="fixed">
+        <origin xyz="0.19741 -0.024099999999999965 -0.005999999999999997" rpy="-4.0821416683972797e-32 -2.4150952879747793e-62 -3.8893845486632136e-62" />
+        <parent link="Body_Mid-EletricalPlate-1" />
+        <child link="Body_Mid-BatteryCover-2" />
+    </joint>
+    <joint name="Body_Mid-EletricalPlate-1_Rigid-45" type="fixed">
+        <origin xyz="0.052590000000000005 -0.024099999999999965 -0.005999999999999997" rpy="-4.0821416683972797e-32 -2.4150952879747793e-62 -3.8893845486632136e-62" />
+        <parent link="Body_Mid-EletricalPlate-1" />
+        <child link="Body_Mid-BatteryCover-1" />
+    </joint>
+    <joint name="SD_Body_Mid-ELECTRICAL-BulkHead-1_Rigid-47" type="fixed">
+        <origin xyz="0.173355 -0.15621000000000002 0.0" rpy="7.888609052210118e-31 3.944304526105059e-31 3.65402908487817e-45" />
+        <parent link="SD_Body_Mid-ELECTRICAL-BulkHead-1" />
+        <child link="Sd_Body_Mid-Sideplate-2" />
+    </joint>
+    <joint name="Sd_Body_Mid-Sideplate-1_Rigid-48" type="fixed">
+        <origin xyz="0.01444500000000005 -0.11599999999999999 -0.23999999999999996" rpy="-1.5707963267948966 7.88860905221012e-31 4.930380657631642e-32" />
+        <parent link="Sd_Body_Mid-Sideplate-1" />
+        <child link="Body_Mid-TopCover-Side-2" />
+    </joint>
+    <joint name="Sd_Body_Mid-Sideplate-2_Rigid-49" type="fixed">
+        <origin xyz="-0.014445000000000006 -0.0014449999999999986 0.01" rpy="-1.5707963267948966 -0.0 -4.9303806576312105e-32" />
+        <parent link="Sd_Body_Mid-Sideplate-2" />
+        <child link="Body_Mid-TopCover-Side-1" />
+    </joint>
+    <joint name="SD_Body_Mid-ELECTRICAL-BulkHead-1_Rigid-50" type="fixed">
+        <origin xyz="0.0 -0.15621000000000002 0.0" rpy="7.888609052210118e-31 3.944304526105059e-31 3.65402908487817e-45" />
+        <parent link="SD_Body_Mid-ELECTRICAL-BulkHead-1" />
+        <child link="SD_Body_Mid-TopPlate-Center-1" />
+    </joint>
+    <joint name="Body_Bearing-1_Revolute-63" type="continuous">
+        <origin xyz="0.0 0.0 0.0" rpy="1.5707963267948966 2.8869513475965226e-32 -4.7428219768961964e-32" />
+        <parent link="Body_Bearing-1" />
+        <child link="SD_ideler-1" />
+        <axis xyz="-2.8869513475965226e-32 1.0 0.0" />
+    </joint>
+    <joint name="Body_Bearing-3_Revolute-64" type="continuous">
+        <origin xyz="0.0 0.0 0.0" rpy="1.5707963267948966 1.1376703155895612e-32 2.1018753586966943e-32" />
+        <parent link="Body_Bearing-3" />
+        <child link="SD_ideler-1-2" />
+        <axis xyz="1.1376703155895612e-32 -1.0 -1.232595164407831e-32" />
+    </joint>
+    <joint name="Body_Bearing-4_Revolute-65" type="continuous">
+        <origin xyz="0.0 0.0 0.0" rpy="1.5707963267948966 -2.180202021223302e-32 2.1018753586966943e-32" />
+        <parent link="Body_Bearing-4" />
+        <child link="SD_ideler-2-1" />
+        <axis xyz="-2.180202021223302e-32 -1.0 1.232595164407831e-32" />
+    </joint>
+    <joint name="Leg_Thigh-1-2_Rigid-75" type="fixed">
+        <origin xyz="-0.016435170000000242 0.020682319999999876 0.20229135" rpy="-1.5707963267948957 3.0479691114534103e-30 8.146391940613016e-20" />
+        <parent link="Leg_Thigh-1-2" />
+        <child link="Leg_Shank-Bushing-2-1" />
+    </joint>
+    <joint name="Leg_Thigh-2-1_Rigid-78" type="fixed">
+        <origin xyz="0.018963769999999793 -0.008347380000000086 0.20295409" rpy="-1.5707963267948957 -6.938893903905254e-18 3.477646107057186e-21" />
+        <parent link="Leg_Thigh-2-1" />
+        <child link="Leg_Shank-Bushing-2-1-1" />
+    </joint>
+    <joint name="Leg_Knee-Cable-Top-V3.2-1-2_Rigid-79" type="fixed">
+        <origin xyz="0.01599942000000006 0.0 -0.00013567999999999358" rpy="1.5707963267948974 5.758058535923345e-17 -5.639955985461287e-17" />
+        <parent link="Leg_Knee-Cable-Top-V3.2-1-2" />
+        <child link="Leg_Knee-Cable-Top-Plate-V3.2-2-1" />
+    </joint>
+    <joint name="Leg_Knee-Cable-Top-V3.2-2-1_Rigid-80" type="fixed">
+        <origin xyz="-0.01599987 0.0 6.414000000000364e-05" rpy="1.5707963267948974 4.301097270056306e-19 -6.195367452660508e-21" />
+        <parent link="Leg_Knee-Cable-Top-V3.2-2-1" />
+        <child link="Leg_Knee-Cable-Top-Plate-V3.2-2-1-1" />
+    </joint>
+    <joint name="Cycloidal_Simplified_for_FEA-v1-4-4-1_Rigid-83" type="fixed">
+        <origin xyz="0.006579759999999908 -5.5800000000001404e-05 0.0" rpy="-1.5707963267948974 5.563142991262994e-17 -1.1808353679838895e-17" />
+        <parent link="Cycloidal_Simplified_for_FEA-v1-4-4-1" />
+        <child link="Leg_Knee-Cable-Top-V3.2-1-2" />
+    </joint>
+    <joint name="Leg_Thigh-Plate-1-2_Rigid-84" type="fixed">
+        <origin xyz="-0.0003466600000000142 -0.04087922000000001 -0.03985001000000004" rpy="-1.7714151933198008e-18 -2.0174260077812947e-19 1.3877787807814454e-17" />
+        <parent link="Leg_Thigh-Plate-1-2" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-4-4-1" />
+    </joint>
+    <joint name="Cycloidal_Simplified_for_FEA-v1-4-4_Rigid-85" type="fixed">
+        <origin xyz="-0.006579950000000001 2.6380000000001404e-05 0.0" rpy="-1.5707963267948974 2.0591041130182496e-20 4.301097270056306e-19" />
+        <parent link="Cycloidal_Simplified_for_FEA-v1-4-4" />
+        <child link="Leg_Knee-Cable-Top-V3.2-2-1" />
+    </joint>
+    <joint name="Leg_Thigh-Plate-2-1_Rigid-86" type="fixed">
+        <origin xyz="-0.000153859999999999 -0.03838056 0.04226302000000004" rpy="-7.560183407073719e-21 -2.4068687237245675e-20 -6.938893903907228e-18" />
+        <parent link="Leg_Thigh-Plate-2-1" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-4-4" />
+    </joint>
+    <joint name="Cycloidal_Simplified_for_FEA-v1-1_Rigid-87" type="fixed">
+        <origin xyz="-0.006579540000000002 7.765000000000022e-05 -2.220446049250313e-18" rpy="-1.5707963267948974 6.232246140204263e-20 -8.085183434476634e-18" />
+        <parent link="Cycloidal_Simplified_for_FEA-v1-1" />
+        <child link="Leg_Knee-Cable-Top-V3.2-1-1" />
+    </joint>
+    <joint name="Leg_Thigh-Plate-1-1_Rigid-88" type="fixed">
+        <origin xyz="-0.00046149000000000217 -0.03910237 0.04159381" rpy="1.6975204292264772e-18 3.02751219796609e-20 6.938893903907228e-18" />
+        <parent link="Leg_Thigh-Plate-1-1" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-1" />
+    </joint>
+    <joint name="Cycloidal_Simplified_for_FEA-v1_Rigid-89" type="fixed">
+        <origin xyz="0.006578919999999968 -0.00011932999999999971 0.0" rpy="-1.5707963267948974 6.793127634302077e-20 -2.220972081642952e-18" />
+        <parent link="Cycloidal_Simplified_for_FEA-v1" />
+        <child link="Leg_Knee-Cable-Top-V3.2-2" />
+    </joint>
+    <joint name="Leg_Thigh-Plate-2_Rigid-90" type="fixed">
+        <origin xyz="-0.0006840100000000149 -0.037711399999999985 -0.04285599" rpy="4.9394423009875515e-18 -4.95195283481096e-20 -6.938893903907227e-18" />
+        <parent link="Leg_Thigh-Plate-2" />
+        <child link="Cycloidal_Simplified_for_FEA-v1" />
+    </joint>
+    <joint name="SD_Hip_motor_mount-1-2_Rigid-91" type="fixed">
+        <origin xyz="-0.0075 0.01735317 0.07634989999999996" rpy="1.4791141972893971e-31 -1.5707963267948966 0" />
+        <parent link="SD_Hip_motor_mount-1-2" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-4-3" />
+    </joint>
+    <joint name="SD_Hip_motor_mount-2-1_Rigid-92" type="fixed">
+        <origin xyz="-0.0075 0.01830533 -0.07612722" rpy="-0.0 -1.5707963267948966 0" />
+        <parent link="SD_Hip_motor_mount-2-1" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-4-4-3" />
+    </joint>
+    <joint name="SD_Hip_motor_mount-2_Rigid-93" type="fixed">
+        <origin xyz="0.0075 0.016615150000000002 0.0765139" rpy="-0.0 -1.5707963267948966 0" />
+        <parent link="SD_Hip_motor_mount-2" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-4-1" />
+    </joint>
+    <joint name="SD_Hip_motor_mount-1-1_Rigid-94" type="fixed">
+        <origin xyz="0.0075 0.01889799 -0.07598227" rpy="-1.2325951644078312e-32 -1.5707963267948966 0" />
+        <parent link="SD_Hip_motor_mount-1-1" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-4" />
+    </joint>
+    <joint name="Hip_Main-Short-2_Rigid-95" type="fixed">
+        <origin xyz="0.0575 0.01844431 -0.024332919999999945" rpy="-3.141592653589793 1.9721522630525295e-31 -3.1051063657415415e-62" />
+        <parent link="Hip_Main-Short-2" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-2" />
+    </joint>
+    <joint name="Hip_Main-Short-1_Rigid-96" type="fixed">
+        <origin xyz="0.0575 0.017707699999999996 0.024874099999999996" rpy="3.141592653589793 2.1382117680726337e-50 1.232595164407831e-32" />
+        <parent link="Hip_Main-Short-1" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-3" />
+    </joint>
+    <joint name="Hip_Main-Short-2-1_Rigid-97" type="fixed">
+        <origin xyz="-0.0575 0.01790099 0.024735369999999996" rpy="-3.141592653589793 -0.0 -6.162975822039155e-33" />
+        <parent link="Hip_Main-Short-2-1" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-4-4-2" />
+    </joint>
+    <joint name="Hip_Main-Short-1-2_Rigid-98" type="fixed">
+        <origin xyz="-0.0575 0.01820849 -0.024509880000000026" rpy="-3.141592653589793 7.888609052210118e-31 -9.860761315262648e-32" />
+        <parent link="Hip_Main-Short-1-2" />
+        <child link="Cycloidal_Simplified_for_FEA-v1-4-2" />
+    </joint>
+    <joint name="Cycloidal_Simplified_for_FEA-v1-2_Revolute-99" type="continuous">
+        <origin xyz="0.0 -2.7200000000000556e-05 0.0014997500000000486" rpy="1.5707963267948957 1.5707963267948966 0" />
+        <parent link="Cycloidal_Simplified_for_FEA-v1-2" />
+        <child link="Leg_Thigh-2" />
+        <axis xyz="0.999836 1.5655765838509102e-17 -0.018134999999998975" />
+    </joint>
+    <joint name="Cycloidal_Simplified_for_FEA-v1-3_Revolute-100" type="continuous">
+        <origin xyz="0.0 1.770999999999745e-05 -0.0014999000000000006" rpy="1.5707963267948957 1.5707963267948966 0" />
+        <parent link="Cycloidal_Simplified_for_FEA-v1-3" />
+        <child link="Leg_Thigh-1-1" />
+        <axis xyz="-0.99993 -1.0187686388764565e-17 0.011800999999998972" />
+    </joint>
+    <joint name="Cycloidal_Simplified_for_FEA-v1-4-4-2_Revolute-101" type="continuous">
+        <origin xyz="0.0 6.019999999997694e-06 -0.0014999800000000008" rpy="1.5707963267948957 1.5707963267948966 0" />
+        <parent link="Cycloidal_Simplified_for_FEA-v1-4-4-2" />
+        <child link="Leg_Thigh-2-1" />
+        <axis xyz="-0.999992 -3.4609299832689826e-18 0.004008999999998973" />
+    </joint>
+    <joint name="Cycloidal_Simplified_for_FEA-v1-4-2_Revolute-102" type="continuous">
+        <origin xyz="0.0 -1.272000000000162e-05 0.0014999399999999952" rpy="1.5707963267948957 1.5707963267948966 0" />
+        <parent link="Cycloidal_Simplified_for_FEA-v1-4-2" />
+        <child link="Leg_Thigh-1-2" />
+        <axis xyz="0.999964 7.32069998955377e-18 -0.008479999999998971" />
+    </joint>
+    <joint name="Leg_Shank-Bushing-2-1_Revolute-103" type="continuous">
+        <origin xyz="-0.0020999199999999973 -1.781000000001143e-05 0.0" rpy="1.5707963267948966 1.3959251727220485e-17 -2.864626544685269e-20" />
+        <parent link="Leg_Shank-Bushing-2-1" />
+        <child link="Leg_Knee-Cartilage-Outer-1-3" />
+        <axis xyz="0.999964 -1.3873134065115256e-17 -0.008479999999999998" />
+    </joint>
+    <joint name="Leg_Shank-Bushing-2_Revolute-104" type="continuous">
+        <origin xyz="-0.0020996500000000397 -3.807999999995815e-05 -2.220446049250313e-18" rpy="1.5707963267948966 -1.841174799491116e-20 6.864420502438397e-18" />
+        <parent link="Leg_Shank-Bushing-2" />
+        <child link="Leg_Knee-Cartilage-Outer-2" />
+        <axis xyz="0.9998359999999998 -3.449581357120945e-18 -0.018135" />
+    </joint>
+    <joint name="Leg_Shank-Bushing-1_Revolute-105" type="continuous">
+        <origin xyz="0.00209986 2.479000000001008e-05 0.0" rpy="1.5707963267948966 -9.259758338170353e-20 2.1074027349316752e-19" />
+        <parent link="Leg_Shank-Bushing-1" />
+        <child link="Leg_Knee-Cartilage-Outer-1-2" />
+        <axis xyz="-0.9999299999999999 3.509412908800613e-20 0.011800999999999997" />
+    </joint>
+    <joint name="Leg_Shank-Bushing-2-1-1_Revolute-106" type="continuous">
+        <origin xyz="0.00209998 8.419999999986772e-06 0.0" rpy="1.5707963267948966 6.942371550014293e-18 6.893463253892444e-18" />
+        <parent link="Leg_Shank-Bushing-2-1-1" />
+        <child link="Leg_Knee-Cartilage-Outer-1-1" />
+        <axis xyz="-0.9999919999999999 -2.113561406285717e-21 0.004009" />
+    </joint>
+    <joint name="SD_shank-main-V2-2-1_Rigid-107" type="fixed">
+        <origin xyz="0.00844827 0.0006162000000000489 -0.17291875999999998" rpy="1.5707963267948966 -1.3948454748685917e-17 -1.3816156836878196e-17" />
+        <parent link="SD_shank-main-V2-2-1" />
+        <child link="SD_foot-1-2-1" />
+    </joint>
+    <joint name="SD_foot-1-2-1_Rigid-108" type="fixed">
+        <origin xyz="0.006998009999999999 -0.06342172000000006 -0.004064679999999967" rpy="1.5707963267948966 -5.328042695032829e-20 -1.387778780781446e-17" />
+        <parent link="SD_foot-1-2-1" />
+        <child link="SD_TPU_Foot-2-1" />
+    </joint>
+    <joint name="Leg_Thigh-1-1_Rigid-109" type="fixed">
+        <origin xyz="0.020542629999999795 -0.011852770000000176 0.20262571" rpy="-1.5707963267948957 -4.926573800935048e-31 -9.259758338170353e-20" />
+        <parent link="Leg_Thigh-1-1" />
+        <child link="Leg_Shank-Bushing-1" />
+    </joint>
+    <joint name="Leg_Knee-Cable-Top-V3.2-1-1_Rigid-110" type="fixed">
+        <origin xyz="-0.01599888 0.0 0.0001888200000000051" rpy="1.5707963267948974 -8.085183434476634e-18 1.4075063472447987e-19" />
+        <parent link="Leg_Knee-Cable-Top-V3.2-1-1" />
+        <child link="Leg_Knee-Cable-Top-Plate-V3.2-1" />
+    </joint>
+    <joint name="Leg_Thigh-1-1_Rigid-111" type="fixed">
+        <origin xyz="0.051508089999999965 0.04159142999999997 0.03851357000000003" rpy="1.5707963267948974 -4.926573800935048e-31 -9.259758338170353e-20" />
+        <parent link="Leg_Thigh-1-1" />
+        <child link="Leg_Thigh-Plate-1-1" />
+    </joint>
+    <joint name="Leg_Knee-Cartilage-Outer-1-2_Rigid-112" type="fixed">
+        <origin xyz="0.0011999099999999996 4.440892098500626e-18 -1.415999999995421e-05" rpy="3.141592653589793 -2.1193981980750784e-19 7.607337519826526e-38" />
+        <parent link="Leg_Knee-Cartilage-Outer-1-2" />
+        <child link="SD_shank-main-V2-1-1" />
+    </joint>
+    <joint name="SD_shank-main-V2-1-1_Rigid-113" type="fixed">
+        <origin xyz="0.008499409999999999 4.440892098500626e-18 0.00010031000000001456" rpy="-1.5707963267948966 -1.1995463143402675e-21 -2.3774723153859525e-21" />
+        <parent link="SD_shank-main-V2-1-1" />
+        <child link="Leg_Knee-Cable-V3.2-1-1" />
+    </joint>
+    <joint name="SD_shank-main-V2-1-1_Rigid-114" type="fixed">
+        <origin xyz="0.00978361 -0.01863215 -0.1718423" rpy="1.5707963267948966 -1.1995463143402675e-21 -2.3774723153859525e-21" />
+        <parent link="SD_shank-main-V2-1-1" />
+        <child link="SD_foot-1-1" />
+    </joint>
+    <joint name="SD_foot-1-1_Rigid-115" type="fixed">
+        <origin xyz="0.00749269 -0.0634235300000001 0.0030206499999999993" rpy="1.5707963267948966 3.456572069591661e-21 -2.7023658569641257e-39" />
+        <parent link="SD_foot-1-1" />
+        <child link="SD_TPU_Foot-1" />
+    </joint>
+    <joint name="Leg_Knee-Cable-Top-V3.2-2_Rigid-116" type="fixed">
+        <origin xyz="0.015997370000000045 2.220446049250313e-18 -0.00029016000000000377" rpy="1.5707963267948974 1.2484748703106628e-18 2.849231990482913e-20" />
+        <parent link="Leg_Knee-Cable-Top-V3.2-2" />
+        <child link="Leg_Knee-Cable-Top-Plate-V3.2-2" />
+    </joint>
+    <joint name="Leg_Thigh-2_Rigid-117" type="fixed">
+        <origin xyz="-0.014463190000000167 0.005182449999999823 0.20342965000000005" rpy="-1.5707963267948957 -3.4694469519516074e-18 -1.841174799491413e-20" />
+        <parent link="Leg_Thigh-2" />
+        <child link="Leg_Shank-Bushing-2" />
+    </joint>
+    <joint name="SD_shank-main-V2-2_Rigid-119" type="fixed">
+        <origin xyz="-0.00849860999999997 0.0 -0.0001541499999999374" rpy="-1.5707963267948966 -3.5601390503719813e-20 -6.873687547735334e-18" />
+        <parent link="SD_shank-main-V2-2" />
+        <child link="Leg_Knee-Cable-V3.2-2" />
+    </joint>
+    <joint name="SD_shank-main-V2-2_Rigid-120" type="fixed">
+        <origin xyz="-0.004655010000000033 0.02676000000000001 -0.17098211999999993" rpy="1.5707963267948966 -3.5601390503719813e-20 -6.873687547735334e-18" />
+        <parent link="SD_shank-main-V2-2" />
+        <child link="SD_foot-1-2" />
+    </joint>
+    <joint name="SD_foot-1-2_Rigid-121" type="fixed">
+        <origin xyz="-0.005594779999999986 -0.06340491000000001 -0.006026990000000003" rpy="1.5707963267948966 8.857279839435654e-20 3.215810522810142e-37" />
+        <parent link="SD_foot-1-2" />
+        <child link="SD_TPU_Foot-2" />
+    </joint>
+    <joint name="SD_shank-main-V2-2-1_Rigid-122" type="fixed">
+        <origin xyz="0.008499930000000001 0.0 3.4080000000003e-05" rpy="-1.5707963267948966 -1.3948454748685917e-17 -1.3816156836878196e-17" />
+        <parent link="SD_shank-main-V2-2-1" />
+        <child link="Leg_Knee-Cable-V3.2-2-1" />
+    </joint>
+    <joint name="SD_shank-main-V2-1-2_Rigid-123" type="fixed">
+        <origin xyz="-0.008499689999999945 0.0 -7.207999999994997e-05" rpy="-1.5707963267948966 2.7175330283708134e-17 -3.3137710524758947e-19" />
+        <parent link="SD_shank-main-V2-1-2" />
+        <child link="Leg_Knee-Cable-V3.2-1-2" />
+    </joint>
+    <joint name="SD_shank-main-V2-1-2_Rigid-124" type="fixed">
+        <origin xyz="-0.006379540000000006 0.060118140000000014 -0.16222749999999997" rpy="1.5707963267948966 2.7175330283708134e-17 -3.3137710524758947e-19" />
+        <parent link="SD_shank-main-V2-1-2" />
+        <child link="SD_foot-1-1-2" />
+    </joint>
+    <joint name="SD_foot-1-1-2_Rigid-125" type="fixed">
+        <origin xyz="-0.0062275299999999595 -0.06089525999999999 -0.018460600000000014" rpy="1.5707963267948966 1.8687262577507615e-20 5.551115123125783e-17" />
+        <parent link="SD_foot-1-1-2" />
+        <child link="SD_TPU_Foot-1-2" />
+    </joint>
+    <joint name="Leg_Thigh-1-2_Rigid-126" type="fixed">
+        <origin xyz="-0.05070138999999998 -0.03984704000000001 0.04132564999999998" rpy="1.5707963267948974 3.0479691114534103e-30 8.146391940613016e-20" />
+        <parent link="Leg_Thigh-1-2" />
+        <child link="Leg_Thigh-Plate-1-2" />
+    </joint>
+    <joint name="Leg_Thigh-2-1_Rigid-127" type="fixed">
+        <origin xyz="0.05120350999999996 0.04226088000000004 0.038189590000000044" rpy="1.5707963267948974 -6.938893903905254e-18 3.477646107057186e-21" />
+        <parent link="Leg_Thigh-2-1" />
+        <child link="Leg_Thigh-Plate-2-1" />
+    </joint>
+    <joint name="Leg_Thigh-2_Rigid-128" type="fixed">
+        <origin xyz="-0.050357349999999954 -0.042854070000000036 0.03865089999999996" rpy="1.5707963267948974 -3.4694469519516074e-18 -1.841174799491413e-20" />
+        <parent link="Leg_Thigh-2" />
+        <child link="Leg_Thigh-Plate-2" />
+    </joint>
+    <joint name="Hip_Main-Short-2-1_Rigid-129" type="fixed">
+        <origin xyz="-0.18 0.0 0.0" rpy="6.970870488828805e-30 -0.0 -6.162975822039155e-33" />
+        <parent link="Hip_Main-Short-2-1" />
+        <child link="SD_Hip_motor_mount-2-1" />
+    </joint>
+    <joint name="SD_ideler-2-1_Rigid-130" type="fixed">
+        <origin xyz="0.07612722 -0.008100000000000022 -0.01830533" rpy="1.5707963267948966 -2.465190328815662e-32 1.5707963267948966" />
+        <parent link="SD_ideler-2-1" />
+        <child link="Hip_Main-Short-2-1" />
+    </joint>
+    <joint name="Hip_Main-Short-1-2_Rigid-131" type="fixed">
+        <origin xyz="-0.18 0.0 0.0" rpy="9.681221861312863e-30 7.888609052210118e-31 -9.860761315262648e-32" />
+        <parent link="Hip_Main-Short-1-2" />
+        <child link="SD_Hip_motor_mount-1-2" />
+    </joint>
+    <joint name="SD_ideler-1-2_Rigid-132" type="fixed">
+        <origin xyz="-0.07634989999999996 -0.008100000000000022 -0.01735317" rpy="1.5707963267948966 -0.0 1.5707963267948966" />
+        <parent link="SD_ideler-1-2" />
+        <child link="Hip_Main-Short-1-2" />
+    </joint>
+    <joint name="SD_Body_Leg-Bearing-2_Rigid-133" type="fixed">
+        <origin xyz="0.14605 0.06477000000000001 -0.016000000000000014" rpy="0.0 -0.0 -2.0379441487742935e-32" />
+        <parent link="SD_Body_Leg-Bearing-2" />
+        <child link="Body_Bearing-4" />
+    </joint>
+    <joint name="SD_Body_Leg-Bearing-2_Rigid-134" type="fixed">
+        <origin xyz="-0.057150000000000034 0.06477000000000001 -0.016000000000000014" rpy="0.0 -0.0 -2.0379441487742935e-32" />
+        <parent link="SD_Body_Leg-Bearing-2" />
+        <child link="Body_Bearing-3" />
+    </joint>
+    <joint name="SD_Body_Leg-Bearing-1_Rigid-135" type="fixed">
+        <origin xyz="0.14605 0.06477000000000001 0.015999999999999997" rpy="1.232595164407831e-32 -0.0 4.806753186818597e-32" />
+        <parent link="SD_Body_Leg-Bearing-1" />
+        <child link="Body_Bearing-1" />
+    </joint>
+    <joint name="Hip_Main-Short-1_Rigid-136" type="fixed">
+        <origin xyz="0.18 0.0 0.0" rpy="-3.469446951951989e-18 2.1382117680726337e-50 1.232595164407831e-32" />
+        <parent link="Hip_Main-Short-1" />
+        <child link="SD_Hip_motor_mount-1-1" />
+    </joint>
+    <joint name="SD_ideler-1_Rigid-137" type="fixed">
+        <origin xyz="0.07598227 0.008100000000000005 -0.01889799" rpy="1.5707963267948966 9.860761315262648e-32 1.5707963267948966" />
+        <parent link="SD_ideler-1" />
+        <child link="Hip_Main-Short-1" />
+    </joint>
+    <joint name="SD_Body_Leg-Bearing-1_Rigid-138" type="fixed">
+        <origin xyz="-0.057150000000000034 0.06477000000000001 0.015999999999999997" rpy="1.232595164407831e-32 -0.0 4.806753186818597e-32" />
+        <parent link="SD_Body_Leg-Bearing-1" />
+        <child link="Body_Bearing-2" />
+    </joint>
+    <joint name="Hip_Main-Short-2_Rigid-139" type="fixed">
+        <origin xyz="0.18 0.0 0.0" rpy="6.938893903903149e-18 1.9721522630525295e-31 -3.1051063657415415e-62" />
+        <parent link="Hip_Main-Short-2" />
+        <child link="SD_Hip_motor_mount-2" />
+    </joint>
+    <joint name="SD_ideler-2_Rigid-140" type="fixed">
+        <origin xyz="-0.0765139 0.008100000000000005 -0.016615150000000002" rpy="1.5707963267948966 -1.5342252214593374e-62 1.5707963267948966" />
+        <parent link="SD_ideler-2" />
+        <child link="Hip_Main-Short-2" />
+    </joint>
+    <joint name="Master_TubeSuport_Rigid-141" type="fixed">
+        <origin xyz="0.0 0.0 0.44450000000000006" rpy="3.141592653589793 -3.8893845486632136e-62 6.3931209922400775e-34" />
+        <parent link="Master_TubeSuport" />
+        <child link="SD_Body_Leg-Bearing-1" />
+    </joint>
+    <joint name="Master_TubeSuport_Rigid-142" type="fixed">
+        <origin xyz="0.0 0.0 0.44450000000000006" rpy="3.141592653589793 -3.8893845486632136e-62 6.3931209922400775e-34" />
+        <parent link="Master_TubeSuport" />
+        <child link="Body_Leg-Center-1" />
+    </joint>
+    <joint name="Master_TubeSuport_Rigid-143" type="fixed">
+        <origin xyz="0.0 0.0 -0.30710000000000004" rpy="3.141592653589793 -3.8893845486632136e-62 6.3931209922400775e-34" />
+        <parent link="Master_TubeSuport" />
+        <child link="SD_Body_Leg-Bearing-2" />
+    </joint>
+    <joint name="Master_TubeSuport_Rigid-144" type="fixed">
+        <origin xyz="0.0 0.0 -0.30710000000000004" rpy="3.141592653589793 -3.8893845486632136e-62 6.3931209922400775e-34" />
+        <parent link="Master_TubeSuport" />
+        <child link="Body_Leg-Center-2" />
+    </joint>
+    <joint name="SD_Body_Leg-Bearing-2_Rigid-145" type="fixed">
+        <origin xyz="0.1096645 0.128475 0.0" rpy="1.5707963267948966 -0.0 -1.5707963267948966" />
+        <parent link="SD_Body_Leg-Bearing-2" />
+        <child link="25-2525-751_6-CL-1" />
+    </joint>
+    <joint name="SD_Body_Leg-Bearing-2_Rigid-146" type="fixed">
+        <origin xyz="0.004635500000000015 0.128475 0.0" rpy="1.5707963267948966 -0.0 -1.5707963267948966" />
+        <parent link="SD_Body_Leg-Bearing-2" />
+        <child link="25-2525-751_6-CL" />
+    </joint>
+    <joint name="SD_Body_Mid-ELECTRICAL-BulkHead-2_Rigid-147" type="fixed">
+        <origin xyz="0.15932026000000002 0.12805571000000002 -0.01" rpy="3.141592653589793 -0.0 -3.141592653589793" />
+        <parent link="SD_Body_Mid-ELECTRICAL-BulkHead-2" />
+        <child link="SD_Body_Leg-Motor-1" />
+    </joint>
+    <joint name="SD_Body_Mid-ELECTRICAL-BulkHead-1_Rigid-148" type="fixed">
+        <origin xyz="0.0 -0.160655 -0.01" rpy="-7.888609052210118e-31 -3.944304526105059e-31 -3.141592653589793" />
+        <parent link="SD_Body_Mid-ELECTRICAL-BulkHead-1" />
+        <child link="SD_Body_Leg-Motor-2" />
+    </joint>
+    <joint name="base_link_Rigid-149" type="fixed">
+        <origin xyz="-0.159320255840892 -0.03650283718183043 2.3291753059595523e-09" rpy="8.28535062075389e-31 1.3214148726694726e-47 -2.7731891634644873e-16" />
+        <parent link="base_link" />
+        <child link="SD_Body_Mid-ELECTRICAL-BulkHead-2" />
+    </joint>
+    <joint name="SD_Body_Mid-ELECTRICAL-BulkHead-2_Rigid-150" type="fixed">
+        <origin xyz="-0.014034740000000028 0.009055710000000002 0.0" rpy="-3.141592653589793 -0.0 3.097924999000996e-47" />
+        <parent link="SD_Body_Mid-ELECTRICAL-BulkHead-2" />
+        <child link="Sd_Body_Mid-Sideplate-1" />
+    </joint>
+    <joint name="SD_Body_Mid-Brace-2_Rigid-152" type="fixed">
+        <origin xyz="-0.04445 -0.06858 0.016509999999999997" rpy="-1.5707963267948966 -2.415095287974761e-62 -3.8893845486632136e-62" />
+        <parent link="SD_Body_Mid-Brace-2" />
+        <child link="Master_TubeSuport" />
+    </joint>
+    <joint name="SD_Body_Leg-Bearing-2_Rigid-153" type="fixed">
+        <origin xyz="0.0 0.0 0.0" rpy="3.141592653589793 -0.0 -2.0379441487742935e-32" />
+        <parent link="SD_Body_Leg-Bearing-2" />
+        <child link="SD_Body_Mid-Brace-1" />
+    </joint>
+    <joint name="base_link_Rigid-154" type="fixed">
+        <origin xyz="4.1591079735781025e-09 -0.06465712718183048 0.1250000023291753" rpy="-1.5707963267948966 1.3214148726694726e-47 -2.7731891634644873e-16" />
+        <parent link="base_link" />
+        <child link="SD_Body_Mid-Brace-2" />
+    </joint>
+    <joint name="SD_Body_Leg-Bearing-1_Rigid-155" type="fixed">
+        <origin xyz="0.0889 0.0 0.0" rpy="-3.141592653589793 -0.0 4.806753186818597e-32" />
+        <parent link="SD_Body_Leg-Bearing-1" />
+        <child link="Master_TubeSuport-1" />
+    </joint>
+    <joint name="base_link_Rigid-156" type="fixed">
+        <origin xyz="4.1591079735781025e-09 -0.06910212718183048 0.2500000023291753" rpy="-3.141592653589793 1.3214148726694726e-47 -2.7731891634644873e-16" />
+        <parent link="base_link" />
+        <child link="SD_Body_Mid-ELECTRICAL-BulkHead-1" />
+    </joint>
+    <joint name="Leg_Knee-Cartilage-Outer-2_Rigid-157" type="fixed">
+        <origin xyz="-0.001199799999999982 0.0 2.1759999999986236e-05" rpy="-3.141592653589793 3.887201096511001e-20 -6.938893903907227e-18" />
+        <parent link="Leg_Knee-Cartilage-Outer-2" />
+        <child link="SD_shank-main-V2-2" />
+    </joint>
+    <joint name="Leg_Knee-Cartilage-Outer-1-1_Rigid-158" type="fixed">
+        <origin xyz="0.0011999900000000002 -7.105427357601002e-17 -4.810000000006198e-06" rpy="3.141592653589793 -2.523629085667638e-20 -6.938893903907227e-18" />
+        <parent link="Leg_Knee-Cartilage-Outer-1-1" />
+        <child link="SD_shank-main-V2-2-1" />
+    </joint>
+    <joint name="Leg_Knee-Cartilage-Outer-1-3_Rigid-159" type="fixed">
+        <origin xyz="-0.0011999600000000045 -7.105427357601002e-17 1.017999999998409e-05" rpy="-3.141592653589793 -5.515990664739234e-19 1.3877787807814457e-17" />
+        <parent link="Leg_Knee-Cartilage-Outer-1-3" />
+        <child link="SD_shank-main-V2-1-2" />
+    </joint>
+</robot>
