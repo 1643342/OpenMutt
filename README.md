@@ -28,7 +28,7 @@ To create your own version, the process starts with flashing a microSD with ubun
 
 The first step is to install and use the [Raspberry Pi Imager program][1]. For this, you will need a microSD card reader or SD-to-USB adapter to flash your microSD.
 
-![Raspberry Pi Imager](https://github.com/1643342/OpenMutt/Images/raspPi1.png "Raspberry Pi Imager")
+![Raspberry Pi Imager](https://github.com/JamesFrisbie/OpenMutt/Images/raspPi1.png "Raspberry Pi Imager")
 
 Select your chosen Raspberry Pi device. It is recommended to use at least the RPi4 with 4GB RAM to properly run the systems.
 
