@@ -229,13 +229,13 @@ O-Drive startup:
 ```
 sudo ip link set can0 up type can bitrate 1000000
 candump can0 #(Optional: confirms if CAN is communicating)
+colcon build
 ```
 Press Ctrl+C to terminate the command
 
 Run this when you make a new terminal:
 ```
-- colcon build
-- source install/setup.bash
+source install/setup.bash
 ```
 
 # References
