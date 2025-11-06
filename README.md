@@ -32,21 +32,21 @@ The first step is to install and use the [Raspberry Pi Imager program][1]. For t
 
 Select your chosen Raspberry Pi device. It is recommended to use at least the RPi4 with 4GB RAM to properly run the systems.
 
-![Select Raspberry Pi](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi2.png "Select Rasperry Pi")
+![Select Raspberry Pi](https://github.com/1643342/OpenMutt/Images/raspPi2.png "Select Rasperry Pi")
 
 Insert your microSD into your device and select it for the storage option.
 
-![Select Storage Option](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi3.png "Select Storage Option")
+![Select Storage Option](https://github.com/1643342/OpenMutt/Images/raspPi3.png "Select Storage Option")
 
 The Operating system has more steps to it than the others, so be mindful of the exact OS you will be installing. After pressing the 'Select OS' option, scroll down to find the "Other general-purpose OS" category. 
 
-![Select OS](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi4.png "Select OS")
+![Select OS](https://github.com/1643342/OpenMutt/Images/raspPi4.png "Select OS")
 
 From here, select the "Ubuntu" category, then "Ubuntu Desktop 22.04.5 LTS (64-bit)" OS.
 
-![Ubuntu Category](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi5.png "Ubuntu Category")
+![Ubuntu Category](https://github.com/1643342/OpenMutt/Images/raspPi5.png "Ubuntu Category")
 
-![Select Ubuntu 22.04.5](https://github.com/1643342/OpenMutt/raw/master/src/common/images/raspPi6.png "Select Ubuntu 22.04.5 LTS 64-Bit")
+![Select Ubuntu 22.04.5](https://github.com/1643342/OpenMutt/Images/raspPi6.png "Select Ubuntu 22.04.5 LTS 64-Bit")
 
 Proceed to flash the microSD with this exact Ubuntu 22.04 OS by hitting the "next" button. Once it has finished flashing, you may remove the card and continue the process with the Raspberry Pi.
 
@@ -118,7 +118,7 @@ ros2 run demo_nodes_py listener
 
 The system should look like this.
 
-![Talker and Listener](https://github.com/1643342/OpenMutt/raw/master/src/common/images/TalkerAndListener.png "Talker and Listener")
+![Talker and Listener](https://github.com/1643342/OpenMutt/Images/TalkerAndListener.png "Talker and Listener")
 
 
 ## Installing O-Drive and CAN Systems
@@ -145,7 +145,7 @@ sudo gedit /boot/firmware/config.txt
 ```
 A text file should open with plenty of text in it already.
 
-![config file open](https://github.com/1643342/OpenMutt/raw/master/src/common/images/ConfigFile1.png "config file open")
+![config file open](https://github.com/1643342/OpenMutt/Images/ConfigFile1.png "config file open")
 
 Copy the following text to **Line 17** of the file.
 ```
@@ -154,7 +154,7 @@ dtoverlay=mcp2515-can0,oscillator=12000000,interrupt=25,spimaxfrequency=2000000
 
 The result should look like this:
 
-![config file line 17](https://github.com/1643342/OpenMutt/raw/master/src/common/images/ConfigFile2.png "config file Line 17")
+![config file line 17](https://github.com/1643342/OpenMutt/Images/ConfigFile2.png "config file Line 17")
 
 Make sure to rerun the "sudo gedit ..." command again to see if the text file properly saved.
 
