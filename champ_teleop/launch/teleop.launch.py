@@ -37,8 +37,8 @@ def generate_launch_description():
     champ_teleop = Node(
         package="champ_teleop",
         executable="champ_teleop.py",
-        # output="screen",
-        prefix="xterm -e",
+        output="screen",
+        # prefix="xterm -e",
         emulate_tty=True,
         parameters=[
             {'use_sim_time': use_sim_time},
