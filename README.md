@@ -17,6 +17,7 @@ The system is build within Ubuntu 22.04 Linux utilizing ROS2 running on a Raspbe
 - [RS485 CAN HAT module][5]
 - [Rasp Pi 4][6]
 - [O-Drive S1][7]
+- [Jetson Nano][8]
 
 
 # First-time system development overview
@@ -203,23 +204,70 @@ source install/setup.bash
 ros2 run can_ros2_example can_listener
 ```
 
+This is a similar step to before, where a talker and listener will confirm that the systems are installed properly. If so, then the output will appear the same as before, and it is safe to close both windows at any time.
 
 
+#JETSON Software
+The Jetson is the microcontroller component responsible for housing the CHAMP controls system. This component is seperate from the Raspberry Pi and is necessary for its increased performance, which is critical in running the resource-intensive controls system.
 
-```command history notes
-cd ~/OpenMutt
-sudo apt install net-tools
-dmesg | grep -i can
-lsmod | grep can
-sudo raspi-config
-config
-ls /dev/spidev*
-ifconfig
-bash
-sudo reboot
+This section is for installing all JETSON related systems onto the JETSON. This includes Ubuntu 22.04/JetPack SKD 6, ROS2, OpenMutt Repository, and CHAMP controller systems.
 
-git clone
+## Install JETSON JetPack SDK 6
+The JETSON has its [own version][10] of Ubuntu 22.04 that is specially curated to the JETSON. As such, it has a very similar, yet slightly different download process to the Raspberry Pi.
+
+###Flash the microSD card using an imager.
+Use the following [Imager][11] to flash the microSD card. This is the same process for flashing the Ubuntu 22.04 systems.
+
+The imager should look as follows:
+![JetPack6](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/JetPack6.PNG "JetPack6")
+
+Select the option "Jetson Linux (L4T) 24.04 LTS". The process for flashing the microSD card is the same as with the Raspberry Pi from this point on.
+
+###Install ROS2 Systems
+Refer to the process dictated before for downloading ROS2 on Ubuntu.
+
+###Clone the OpenMutt Repository
+In order to get the tools and systems required to run the OpenMutt, it is necessary to clone the repo for OpenMutt.
 ```
+sudo gh repo clone 1643342/OpenMutt
+```
+
+###Format systems
+```
+colcon build 
+source install/setup.bash
+ros2 launch champ_config bringup.launch.py rviz:=true
+```
+
+Run the following code **_ON THE RASPBERRY PI_** to operate the joints. This line gives control over the joint positions and can be cancelled with Ctrl+C.
+```
+ros2 launch champ_teleop teleop.launch.py
+```
+
+After confirming the champ materials were installed, install the additional required systems.
+```
+sudo apt install ros-humble-nav2-bringup
+sudo apt install ros-humble-ros-gz-sim
+sudo apt install ros-humble-ign-ros2-control
+```
+
+#Setting up JETSON
+The following is the required steps to properly connecting the JETSON to the Raspberry Pi.
+
+Connect the JETSON to the Raspberry Pi through the RS232 Ethernet port.
+![Raspberry Pi 5 Ethernet](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/RaspberryPiEthernet.PNG "RaspberryPiEthernet")
+
+
+
+![OOOOOOOO](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/OOOOOOOOO.PNG "OOOOOOOO")
+
+
+
+
+
+
+
+
 
 
 
@@ -253,6 +301,13 @@ source install/setup.bash
 
 [7]: https://shop.odriverobotics.com/products/odrive-s1
 
+[8]: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/product-development/
+
+[9]: https://docs.nvidia.com/jetson/jetpack/install-setup/index.html
+
+[10]: https://developer.nvidia.com/embedded/jetpack-sdk-60
+
+[11]: https://developer.nvidia.com/embedded/jetpack
 
 # Contributors
 Openmutt:
