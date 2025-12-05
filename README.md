@@ -207,32 +207,32 @@ ros2 run can_ros2_example can_listener
 This is a similar step to before, where a talker and listener will confirm that the systems are installed properly. If so, then the output will appear the same as before, and it is safe to close both windows at any time.
 
 
-#JETSON Software
+# JETSON Software
 The Jetson is the microcontroller component responsible for housing the CHAMP controls system. This component is seperate from the Raspberry Pi and is necessary for its increased performance, which is critical in running the resource-intensive controls system.
 
 This section is for installing all JETSON related systems onto the JETSON. This includes Ubuntu 22.04/JetPack SKD 6, ROS2, OpenMutt Repository, and CHAMP controller systems.
 
-## Install JETSON JetPack SDK 6
+## Install JETSON [JetPack SDK 6][9]
 The JETSON has its [own version][10] of Ubuntu 22.04 that is specially curated to the JETSON. As such, it has a very similar, yet slightly different download process to the Raspberry Pi.
 
-###Flash the microSD card using an imager.
+### Flash the microSD card using an imager.
 Use the following [Imager][11] to flash the microSD card. This is the same process for flashing the Ubuntu 22.04 systems.
 
 The imager should look as follows:
-![JetPack6](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/JetPack6.PNG "JetPack6")
+![JetPack SDK 6](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/JetPack6.PNG "JetPack SDK 6")
 
 Select the option "Jetson Linux (L4T) 24.04 LTS". The process for flashing the microSD card is the same as with the Raspberry Pi from this point on.
 
-###Install ROS2 Systems
+### Install ROS2 Systems
 Refer to the process dictated before for downloading ROS2 on Ubuntu.
 
-###Clone the OpenMutt Repository
+### Clone the OpenMutt Repository
 In order to get the tools and systems required to run the OpenMutt, it is necessary to clone the repo for OpenMutt.
 ```
 sudo gh repo clone 1643342/OpenMutt
 ```
 
-###Format systems
+### Format systems
 ```
 colcon build 
 source install/setup.bash
@@ -251,25 +251,38 @@ sudo apt install ros-humble-ros-gz-sim
 sudo apt install ros-humble-ign-ros2-control
 ```
 
-#Setting up JETSON
+# Setting up JETSON
 The following is the required steps to properly connecting the JETSON to the Raspberry Pi.
 
 Connect the JETSON to the Raspberry Pi through the RS232 Ethernet port.
-![Raspberry Pi 5 Ethernet](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/RaspberryPiEthernet.PNG "RaspberryPiEthernet")
+![Raspberry Pi 5 Ethernet](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/RaspberryPiEthernet.PNG "Raspberry Pi 5 Ethernet")
 
+## Enable the connection through the Raspberry Pi
+For this step, you will need to go through the internet settings on the Raspberry Pi. This process requires that the network IP4s to be defined.
 
+Open the settings for Ubuntu.
+![Open Settings](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/network1.PNG "network1")
 
-![OOOOOOOO](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/OOOOOOOOO.PNG "OOOOOOOO")
+Go to the "Network" tab and select the settings gear.
+![Network Settings](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/network2.PNG "network2")
 
+Go to the IP4 tab.
+![IP4 Settings](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/network3.PNG "network3")
 
+For the three spots shown, manually set the IP to a unique address (ie: 192.168.1.105), and set netmask to 255.255.255.0, _leave gateway empty_.
 
+Go to the previous "Network" settings tab and toggle the wifi off and on again. This will reset the connection with the new address and netmask.
 
+## Set up wifi for JETSON
+Repeat the previous step for the Jetson. Be sure to use the same netmask, but slightly modify the address (ie: 192.168.1.106). This new address will have the same first three numbers, but **MUST HAVE** a different number for the last section. This allows the two devices to communicate on the same network while maintaining unique addresses.
 
+## Test the connection
+When both the Raspberry Pi and the Jetson are set up, use the following command to test if the connection is stable and functioning.
+```
+ping 192.168.1.105
+```
 
-
-
-
-
+If the system is pinged, then the two systems are able to communicate properly.
 
 
 # Initial Startup Procedure
