@@ -351,7 +351,7 @@ Locomotion 2:
 James Frisbie, Sam Curcuro, Andrew Vandergrift, Kellie Coppola, Harry Cardillo
 
 Openarms/Payloads:
-Avery Cuenin, Max , Manuel, Killian Embler, Elijah ,Zenat    
+Avery Cuenin, Max Pizzurro, Manuel Buenrostro, Killian Embler, Elijah, Zenat    
 
 Eeyore:
 Daniel, Colin, Andrew,
