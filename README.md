@@ -257,18 +257,18 @@ The following is the required steps to properly connecting the JETSON to the Ras
 
 Connect the JETSON to the Raspberry Pi through the RS232 Ethernet port.
 
-![Raspberry Pi 5 Ethernet](https://github.com/1643342/OpenMutt/blob/main/Images/RaspberryPiEthernet.PNG "Raspberry Pi 5 Ethernet")
+![Raspberry Pi 5 Ethernet](https://github.com/1643342/OpenMutt/blob/main/Images/RaspberryPiEthernet.jpg "Raspberry Pi 5 Ethernet")
 
 ## Enable the connection through the Raspberry Pi
 For this step, you will need to go through the internet settings on the Raspberry Pi. This process requires that the network IP4s to be defined.
 
 Open the settings for Ubuntu.
 
-![Open Settings](https://github.com/1643342/OpenMutt/blob/main/Images/network1.PNG "network1")
+![Open Settings](https://github.com/1643342/OpenMutt/blob/main/Images/network1.png "network1")
 
 Go to the "Network" tab and select the settings gear.
 
-![Network Settings](https://github.com/1643342/OpenMutt/blob/main/Images/network2.PNG "network2")
+![Network Settings](https://github.com/1643342/OpenMutt/blob/main/Images/network2.png "network2")
 
 Go to the IP4 tab.
 
