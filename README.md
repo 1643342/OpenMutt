@@ -219,6 +219,7 @@ The JETSON has its [own version][10] of Ubuntu 22.04 that is specially curated t
 Use the following [Imager][11] to flash the microSD card. This is the same process for flashing the Ubuntu 22.04 systems.
 
 The imager should look as follows:
+
 ![JetPack SDK 6](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/JetPack6.PNG "JetPack SDK 6")
 
 Select the option "Jetson Linux (L4T) 24.04 LTS". The process for flashing the microSD card is the same as with the Raspberry Pi from this point on.
@@ -255,18 +256,22 @@ sudo apt install ros-humble-ign-ros2-control
 The following is the required steps to properly connecting the JETSON to the Raspberry Pi.
 
 Connect the JETSON to the Raspberry Pi through the RS232 Ethernet port.
+
 ![Raspberry Pi 5 Ethernet](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/RaspberryPiEthernet.PNG "Raspberry Pi 5 Ethernet")
 
 ## Enable the connection through the Raspberry Pi
 For this step, you will need to go through the internet settings on the Raspberry Pi. This process requires that the network IP4s to be defined.
 
 Open the settings for Ubuntu.
+
 ![Open Settings](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/network1.PNG "network1")
 
 Go to the "Network" tab and select the settings gear.
+
 ![Network Settings](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/network2.PNG "network2")
 
 Go to the IP4 tab.
+
 ![IP4 Settings](https://github.com/JamesFrisbie/OpenMutt/blob/patch-2/Images/network3.PNG "network3")
 
 For the three spots shown, manually set the IP to a unique address (ie: 192.168.1.105), and set netmask to 255.255.255.0, _leave gateway empty_.
@@ -283,6 +288,19 @@ ping 192.168.1.105
 ```
 
 If the system is pinged, then the two systems are able to communicate properly.
+
+# Bash both systems
+In order to share ROS topics between the two devices, it is necessary to define their domain ID.
+
+Set up the bash and define the domain ID. **You will need to do this for both the Raspberry Pi and the Jetson**
+```
+gedit ~/.bashrc in both systems
+at bottom: type
+echo 'export ROS_DOMAIN_ID=42' >> ~/.bashrc
+```
+
+
+
 
 
 # Initial Startup Procedure
