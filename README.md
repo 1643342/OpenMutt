@@ -29,25 +29,25 @@ To create your own version, the process starts with flashing a microSD with ubun
 
 The first step is to install and use the [Raspberry Pi Imager program][1]. For this, you will need a microSD card reader or SD-to-USB adapter to flash your microSD.
 
-![Raspberry Pi Imager](https://github.com/1643342/Openmutt/Images/raspPi1.PNG "Raspberry Pi Imager")
+![Raspberry Pi Imager](https://github.com/1643342/OpenMutt/blob/main/Images/raspPi1.PNG "Raspberry Pi Imager")
 
 Select your chosen Raspberry Pi device. It is recommended to use at least the RPi4 with 4GB RAM to properly run the systems.
 
-![Select Raspberry Pi](https://github.com/1643342/Openmutt/Images/raspPi2.PNG "Select Rasperry Pi")
+![Select Raspberry Pi](https://github.com/1643342/OpenMutt/blob/main/Images/raspPi2.PNG "Select Rasperry Pi")
 
 Insert your microSD into your device and select it for the storage option.
 
-![Select Storage Option](https://github.com/1643342/Openmutt/Images/raspPi3.PNG "Select Storage Option")
+![Select Storage Option](https://github.com/1643342/OpenMutt/blob/main/Images/raspPi3.PNG "Select Storage Option")
 
 The Operating system has more steps to it than the others, so be mindful of the exact OS you will be installing. After pressing the 'Select OS' option, scroll down to find the "Other general-purpose OS" category. 
 
-![Select OS](https://github.com/1643342/Openmutt/Images/raspPi4.PNG "Select OS")
+![Select OS](https://github.com/1643342/OpenMutt/blob/main/Images/raspPi4.PNG "Select OS")
 
 From here, select the "Ubuntu" category, then "Ubuntu Desktop 22.04.5 LTS (64-bit)" OS.
 
-![Ubuntu Category](https://github.com/1643342/Openmutt/Images/raspPi5.PNG "Ubuntu Category")
+![Ubuntu Category](https://github.com/1643342/OpenMutt/blob/main/Images/raspPi5.PNG "Ubuntu Category")
 
-![Select Ubuntu 22.04.5](https://github.com/1643342/Openmutt/Images/raspPi6.PNG "Select Ubuntu 22.04.5 LTS 64-Bit")
+![Select Ubuntu 22.04.5](https://github.com/1643342/OpenMutt/blob/main/Images/raspPi6.PNG "Select Ubuntu 22.04.5 LTS 64-Bit")
 
 Proceed to flash the microSD with this exact Ubuntu 22.04 OS by hitting the "next" button. Once it has finished flashing, you may remove the card and continue the process with the Raspberry Pi.
 
@@ -119,7 +119,7 @@ ros2 run demo_nodes_py listener
 
 The system should look like this.
 
-![Talker and Listener](https://github.com/1643342/Openmutt/Images/TalkerAndListener.PNG "Talker and Listener")
+![Talker and Listener](https://github.com/1643342/OpenMutt/blob/main/Images/TalkerAndListener.PNG "Talker and Listener")
 
 
 ## Installing O-Drive and CAN Systems
@@ -146,7 +146,7 @@ sudo gedit /boot/firmware/config.txt
 ```
 A text file should open with plenty of text in it already.
 
-![config file open](https://github.com/1643342/Openmutt/Images/ConfigFile1.PNG "config file open")
+![config file open](https://github.com/1643342/OpenMutt/blob/main/Images/ConfigFile1.PNG "config file open")
 
 Copy the following text to **Line 17** of the file.
 ```
@@ -155,7 +155,7 @@ dtoverlay=mcp2515-can0,oscillator=12000000,interrupt=25,spimaxfrequency=2000000
 
 The result should look like this:
 
-![config file line 17](https://github.com/1643342/Openmutt/Images/ConfigFile2.PNG "config file Line 17")
+![config file line 17](https://github.com/1643342/OpenMutt/blob/main/Images/ConfigFile2.PNG "config file Line 17")
 
 Make sure to rerun the "sudo gedit ..." command again to see if the text file properly saved.
 
@@ -220,7 +220,7 @@ Use the following [Imager][11] to flash the microSD card. This is the same proce
 
 The imager should look as follows:
 
-![JetPack SDK 6](https://github.com/1643342/Openmutt/Images/JetPack6.PNG "JetPack SDK 6")
+![JetPack SDK 6](https://github.com/1643342/OpenMutt/blob/main/Images/JetPack6.PNG "JetPack SDK 6")
 
 Select the option "Jetson Linux (L4T) 24.04 LTS". The process for flashing the microSD card is the same as with the Raspberry Pi from this point on.
 
@@ -257,22 +257,22 @@ The following is the required steps to properly connecting the JETSON to the Ras
 
 Connect the JETSON to the Raspberry Pi through the RS232 Ethernet port.
 
-![Raspberry Pi 5 Ethernet](https://github.com/1643342/Openmutt/Images/RaspberryPiEthernet.PNG "Raspberry Pi 5 Ethernet")
+![Raspberry Pi 5 Ethernet](https://github.com/1643342/OpenMutt/blob/main/Images/RaspberryPiEthernet.PNG "Raspberry Pi 5 Ethernet")
 
 ## Enable the connection through the Raspberry Pi
 For this step, you will need to go through the internet settings on the Raspberry Pi. This process requires that the network IP4s to be defined.
 
 Open the settings for Ubuntu.
 
-![Open Settings](https://github.com/1643342/Openmutt/Images/network1.PNG "network1")
+![Open Settings](https://github.com/1643342/OpenMutt/blob/main/Images/network1.PNG "network1")
 
 Go to the "Network" tab and select the settings gear.
 
-![Network Settings](https://github.com/1643342/Openmutt/Images/network2.PNG "network2")
+![Network Settings](https://github.com/1643342/OpenMutt/blob/main/Images/network2.PNG "network2")
 
 Go to the IP4 tab.
 
-![IP4 Settings](https://github.com/1643342/Openmutt/Images/network3.PNG "network3")
+![IP4 Settings](https://github.com/1643342/OpenMutt/blob/main/Images/network3.PNG "network3")
 
 For the three spots shown, manually set the IP to a unique address (ie: 192.168.1.105), and set netmask to 255.255.255.0, _leave gateway empty_.
 
