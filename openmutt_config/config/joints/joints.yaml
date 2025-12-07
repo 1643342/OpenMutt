@@ -1,6 +1,60 @@
-quadruped_controller_node:
+/**:
   ros__parameters:
-    joints:
+    joints_map:
+      left_front:
+        - frontLeftHipRotateXJoint
+        - frontLeftHipRotateYJoint
+        - frontLeftKneeJoint
+        - frontLeftShinToFoot
+
+      right_front:
+        - frontRightHipRotateXJoint
+        - frontRightHipRotateYJoint
+        - frontRightKneeJoint
+        - frontRightShinToFoot
+
+      left_hind:
+        - backLeftHipRotateXJoint
+        - backLeftHipRotateYJoint
+        - backLeftKneeJoint
+        - backLeftShinToFoot
+
+      right_hind:
+        - backRightHipRotateXJoint
+        - backRightHipRotateYJoint
+        - backRightKneeJoint
+        - backRightShinToFoot
+
+/quadruped_controller_node:
+  ros__parameters:
+    joints_map:
+      left_front:
+        - frontLeftHipRotateXJoint
+        - frontLeftHipRotateYJoint
+        - frontLeftKneeJoint
+        - frontLeftShinToFoot
+
+      right_front:
+        - frontRightHipRotateXJoint
+        - frontRightHipRotateYJoint
+        - frontRightKneeJoint
+        - frontRightShinToFoot
+
+      left_hind:
+        - backLeftHipRotateXJoint
+        - backLeftHipRotateYJoint
+        - backLeftKneeJoint
+        - backLeftShinToFoot
+
+      right_hind:
+        - backRightHipRotateXJoint
+        - backRightHipRotateYJoint
+        - backRightKneeJoint
+        - backRightShinToFoot
+
+/state_estimation_node:
+  ros__parameters:
+    joints_map:
       left_front:
         - frontLeftHipRotateXJoint
         - frontLeftHipRotateYJoint

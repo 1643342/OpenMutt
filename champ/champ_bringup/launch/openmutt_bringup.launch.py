@@ -22,19 +22,15 @@ from launch.substitutions import Command, LaunchConfiguration
 
 def generate_launch_description():
 
-    config_pkg_share = launch_ros.substitutions.FindPackageShare(
-        package="openmutt_config"
-    ).find("openmutt_config")
-    descr_pkg_share = launch_ros.substitutions.FindPackageShare(
-        package="openmutt_description"
-    ).find("openmutt_description")
+    config_pkg_share = get_package_share_directory("openmutt_config")
+    descr_pkg_share = get_package_share_directory("openmutt_description")
 
     joints_config = os.path.join(config_pkg_share, "config/joints/joints.yaml")
     gait_config = os.path.join(config_pkg_share, "config/gait/gait.yaml")
     links_config = os.path.join(config_pkg_share, "config/links/links.yaml")
 
-    default_rviz_path = os.path.join(descr_pkg_share, "rviz/urdf.rviz")
-    default_model_path = os.path.join(descr_pkg_share, "urdf/MASTER.urdf") # "urdf/<URDF_NAME>.urdf"
+    default_rviz_path = os.path.join(descr_pkg_share, "rviz/urdf_viewer.rviz")
+    default_model_path = os.path.join(descr_pkg_share, "urdf/openMuttSensors.urdf")
 
     declare_use_sim_time = DeclareLaunchArgument(
         "use_sim_time",
@@ -56,19 +52,19 @@ def generate_launch_description():
 
     declare_joints_map_path = DeclareLaunchArgument(
         name="joints_map_path",
-        default_value=joints_config,
+        default_value='',
         description="Absolute path to joints map file",
     )
 
     declare_links_map_path = DeclareLaunchArgument(
         name="links_map_path",
-        default_value=links_config,
+        default_value='',
         description="Absolute path to links map file",
     )
 
     declare_gait_config_path = DeclareLaunchArgument(
         name="gait_config_path",
-        default_value=gait_config,
+        default_value='',
         description="Absolute path to gait config file",
     )
 
@@ -143,7 +139,7 @@ def generate_launch_description():
     description_ld = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(
-                get_package_share_directory("champ_description"),
+                get_package_share_directory("openmutt_description"),
                 "launch",
                 "description.launch.py",
             )
@@ -232,6 +228,14 @@ def generate_launch_description():
         condition=IfCondition(LaunchConfiguration("rviz"))
     )
 
+    static_map_to_odom = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='static_map_to_odom',
+        output='screen',
+        arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom']
+    )
+
 
     return LaunchDescription(
         [
@@ -260,6 +264,7 @@ def generate_launch_description():
             state_estimator_node,
             base_to_footprint_ekf,
             footprint_to_odom_ekf,
-            rviz2
+            rviz2,
+            static_map_to_odom
         ]
     )
